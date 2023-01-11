@@ -36,7 +36,7 @@ const props = defineProps({
 }
 
 .closed .rect {
-    transform: translate(-22px, 16px) rotate(90deg);
+    transform: translate(-22px, -16px) rotate(90deg);
     height: calc(100% - 20px);
     fill: var(--color-maniac-mansion);
     transition: transform .3s ease;
@@ -53,7 +53,7 @@ const props = defineProps({
 }
 
 .closed .linebottom {
-    transform: translate(0, 13px) rotate(138deg);
+    transform: translate(0, -18px) rotate(138deg);
     scale: 1;
     fill: var(--color-sailor-boy);
     transition: transform .3s ease scale .3s ease;
@@ -61,7 +61,7 @@ const props = defineProps({
 }
 
 .closed .linetop {
-    transform: translate(-10px, 47px) rotate(44deg);
+    transform: translate(-10px, 16px) rotate(44deg);
     fill: var(--color-sailor-boy);
     transition: transform .3s ease;
 
