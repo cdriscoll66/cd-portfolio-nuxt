@@ -1,0 +1,41 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bookmania', sans-serif;
+    font-weight: bold;
+    letter-spacing: -.25px;
+    line-height: 1.25;
+    margin-top: .83em;
+    margin-bottom: .83em;
+
+}
+
+p {
+    font-family: 'Bookmania', sans-serif;
+    font-size: var(--body-font-size);
+    letter-spacing: .25px;
+    line-height: 1.4;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+p.lede {
+    
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    color: var(--color-glowing-lantern)
+}
+h2 {
+    font-size: 3.5rem;
+}
+h3 {
+    font-size: 2.5rem;
+}
+h4 {
+    font-size: 1.5rem;
+}

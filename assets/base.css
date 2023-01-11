@@ -1,0 +1,82 @@
+:root {
+    --color-black: #000;
+    --color-light-gray: #444;
+    --color-medium-gray: #898989;
+    --color-dark-gray: #bbb;
+    --color-white: #fff;
+    --color-transparent: transparent;
+    --color-mercury: #ECECEC;
+    --color-trapped-darkness: #0C1D32;
+    --color-maniac-mansion: #033A56;
+    --color-sailor-boy: #ACBDD2;
+    --color-hot-butter: #EB9D02;
+    --color-glowing-lantern: #F5B33E;
+    --color-old-lace: #FFF5E3;
+    --color-success: #4CAF50;
+    --color-warning: var(--color-glowing-lantern);
+    --color-danger: #F44336;
+    --color-info: var(--color-maniac-mansion);
+    --font-header: 'Bookmania', sans-serif;
+    --font-body: 'Bookmania', serif;
+    --font-body-size: 18px;
+    --site-container-width: 1440px;
+    --breakpoint-lg: 1120px;
+    --breakpoint-md: 768px;
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--color-old-lace);
+
+  --color-border: var(--color-sailor-boy);
+  --color-border-hover: var(--color-maniac-mansion);
+
+  --color-heading: var(--color-trapped-darkness);
+  --color-text: var(--color-black);
+
+  --section-gap: 160px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--color-trapped-darkness);
+    --color-border: var(--color-sailor-boy);
+    --color-border-hover: var(--color-glowing-lantern);
+    --color-heading: var(--color-glowing-lantern);
+    --color-text: var(--color-mercury);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+html, body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.625;
+  font-weight: 200;
+  font-family: "Bookmania", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+    font-size: var(--font-body-size);
+    text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+  }
