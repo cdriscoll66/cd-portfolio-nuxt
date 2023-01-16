@@ -9,19 +9,20 @@
 <style scoped lang="scss">
 footer {
   z-index: 1;
-  position: absolute;
-  bottom: 16px;
-  width: 100%;
+  position: fixed;
+  bottom: 5px;
   font-family: "Henderson Slab", serif;
   text-transform: uppercase;
   font-size: 0.5rem;
   color: var(--color-sailor-boy);
-  padding-bottom: 0;
+  width: 100%;
   div {
-    margin: 0 auto;
+    margin: 0 20px;
     max-width: var(--site-container-width);
-    width: 100%;
-    margin-bottom: 0;
+    @media screen and (min-width: 1440px) {
+      margin: 0 auto;
+      padding: 0 20px;
+    }
   }
 }
 </style>

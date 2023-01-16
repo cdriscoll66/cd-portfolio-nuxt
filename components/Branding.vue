@@ -58,7 +58,8 @@ const screenWidth = computed(() => {
     position: absolute;
     top: 21px;
     left: 20px;
-    
+    display: inline-block;
+    vertical-align: bottom;
 }
 .brand-box {
   background-color: var(--color-white);
@@ -150,7 +151,10 @@ span.r-salt {
   font-weight: 700;
 }
 
-.v-enter-active,
+.v-enter-active {
+  transition: opacity 0.75s ease;
+  transition-delay: 0.5s;
+}
 .v-leave-active {
   transition: opacity 0.5s ease;
 }

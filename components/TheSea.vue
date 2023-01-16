@@ -50,22 +50,22 @@
 
 .moon {
   position: absolute;
-  bottom: 60vh;
+  top: 35vh;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   z-index: 0;
-  background-color: var(--color-glowing-lantern);
+  background-color: #fccf88;
   box-shadow: 0px 0px 70px 30px rgba(245, 178, 62, 0.6);
 
   right: -35px;
 
 @media screen and (min-width: 860px) {
-    right: calc(-1 * (938px - 105vw));
+    right: calc(-1 * (938px - 105.5vw));
 }
 
 @media screen and (min-width: 1250px) {
-    right: calc(512px + -10vw);
+    right: calc(512px + -9.5vw);
 }
 }
 .clouds {

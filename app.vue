@@ -71,21 +71,33 @@ const ToggleMenu = () => {
 
 <style scoped lang="scss">
 .header {
+  position: fixed; 
+  left: 0;
+  right: 0;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
   max-width: var(--site-container-width);
-  margin: 2px 30px;
+  margin: 5px 0;
   z-index: 100;
-  @media screen and (min-width: 1500px) {
-    margin: 20px auto;
+  @media screen and (min-width: 1440px) {
+    margin: 5px auto;
   }
 }
 
+.toggle {
+  display: inline-block;
+  line-height: 1;
+  margin-right: 20px;
+  svg {
+    vertical-align: bottom;
+  }
+}
 .main {
     display: flex;
     flex-flow: column nowrap;
+    min-height: 100vh;
   }
   
   .main > section {

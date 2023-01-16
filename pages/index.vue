@@ -11,7 +11,8 @@
           I love making beautiful, performant, interesting things.
         </h4>
         <p>
-          I&apos;m a freelance web developer, and technologist. I spend my days in Richmond, Virginia. Thanks for taking a look. 
+          I&apos;m a freelance web developer, and technologist. I spend my days
+          in Richmond, Virginia. Thanks for taking a look.
         </p>
       </div>
     </section>
@@ -22,23 +23,25 @@
 .main {
   overflow: hidden;
   position: static;
-}
-
-.moon {
-  position: absolute;
-  bottom: 60vh;
-  right: 55vh;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  z-index: 0;
-  background-color: var(--color-glowing-lantern);
-  box-shadow: 0px 0px 70px 30px rgba(245, 178, 62, 0.6);
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+  padding-top: 105px;
+  & > section {
+    max-width: var(--site-container-width);
+    margin: 0 30px;
+    z-index: 1;
+    @media (min-width: 1500px) {
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
 }
 
 .intro {
   margin-right: 20px;
-   @media screen and (min-width: 400px) {
+  margin-left: 20px;
+  @media screen and (min-width: 400px) {
     margin-right: 50px;
   }
   @media screen and (min-width: 860px) {
@@ -59,6 +62,4 @@
 .intro p {
   line-height: 1.6;
 }
-
-
 </style>

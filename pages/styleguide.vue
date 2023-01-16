@@ -12,7 +12,7 @@ const colorVar = (color: string) => {
 </script>
 
 <template>
-  <section class="container">
+  <section class="container scrollable">
     <h1 class="headline">Wayfinder Ui Kit</h1>
     <p>-by Conor D.</p>
     <hr />
@@ -63,6 +63,12 @@ const colorVar = (color: string) => {
 </template>
 
 <style scoped lang="scss">
+
+.scrollable {
+  overflow-y: scroll;
+  height: 100vh;
+  padding-bottom: 100px;
+}
 h1.headline {
   margin-bottom: 10px;
 }
