@@ -1,15 +1,15 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="overlay-menu">
-    <p>menu overlay</p>
+    <div class="menu-container">
+      <NuxtLink to="/work">Work</NuxtLink>
+      <NuxtLink to="/styleguide">About</NuxtLink>
+    </div>
   </div>
 </template>
 
 <style scoped lang="scss">
-
 .overlay-menu {
   position: fixed;
   top: 0;
@@ -19,7 +19,17 @@
   background-color: var(--color-old-lace);
   color: var(--color-maniac-mansion);
   z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-</style>
+.menu-container {
+  display: flex;
+  flex-flow: column nowrap;
+  a {
+    padding-top: 1rem;
+  }
 
+}
+</style>
