@@ -20,16 +20,17 @@ p {
 p.lede {
     
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1.2;
     font-style: italic;
 }
+/* font size for mobile screens */
 
 h1 {
-    font-size: 6rem;
-    font-weight: 700;
-    color: var(--color-glowing-lantern)
+    font-size: 3rem;
+    line-height: 1;
 }
+
 h2 {
     font-size: 3.5rem;
 }
@@ -38,4 +39,28 @@ h3 {
 }
 h4 {
     font-size: 1.5rem;
+}
+
+/* font size for desktop screens */
+
+@media screen and (min-width: 768px) {
+
+
+    h1 {
+        font-size: 5rem;
+    }
+    
+    h2 {
+        font-size: 3.5rem;
+    }
+    h3 {
+        font-size: 2.5rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+    }
+}
+
+.golden {
+    color: var(--color-glowing-lantern);
 }
