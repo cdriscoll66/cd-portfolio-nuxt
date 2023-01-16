@@ -3,7 +3,7 @@ useHead({
   title: "Styleguide",
 });
 
-const colors = [ 'glowing-lantern', 'hot-butter', 'sailor-boy', 'maniac-mansion', 'trapped-darkness', 'mercury', 'transparent',   'black' , 'light-gray','medium-gray', 'dark-gray','white'];
+const colors = [ 'glowing-lantern', 'hot-butter', 'sailor-boy', 'maniac-mansion', 'trapped-darkness', 'mercury', 'old-lace',   'black' , 'light-gray','medium-gray', 'dark-gray','white'];
 
 const colorVar = (color: string) => {
     return `var(--color-${color})`
@@ -29,7 +29,7 @@ const colorVar = (color: string) => {
     </div>
     <div class="container">
       <h2>Type</h2>
-      <h1>Heading 1</h1>
+      <h1 class="golden">Heading 1</h1>
       <h2>Heading 2</h2>
       <h3>Heading 3</h3>
       <h4>Heading 4</h4>
@@ -80,7 +80,7 @@ h1.headline {
 }
 
 .lightbg {
-  background-color: var(--color-mercury);
+  background-color: var(--color-old-lace);
 }
 
 .colorswatch {
