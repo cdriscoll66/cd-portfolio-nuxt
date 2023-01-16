@@ -1,12 +1,10 @@
 <script setup lang="ts">
-
-const router = useRouter()
+const router = useRouter();
 
 router.afterEach((to, from, next) => {
-  state.menuOpen = false
-  next
-})
-
+  state.menuOpen = false;
+  next;
+});
 
 useHead({
   titleTemplate: (titleChunk) => {
@@ -18,12 +16,12 @@ useHead({
 
 interface State {
   menuOpen: boolean;
-  siteWidth: number | null;
+  siteWidth: number | undefined;
 }
 
 const state: State = reactive({
   menuOpen: false,
-  siteWidth: null,
+  siteWidth: 0,
 });
 
 const updateMenuBody = () => {
@@ -55,31 +53,62 @@ const ToggleMenu = () => {
 <template>
   <header>
     <div class="header">
-      <NuxtLink to="/">
-        <img src="./images/logo-dark.svg" width="60" height="60" />
-      </NuxtLink>
+
+      <Branding :open="state.menuOpen" :width="state.siteWidth"/>
+
       <a class="toggle" @click.prevent="ToggleMenu">
         <MenuEx :open="state.menuOpen" />
       </a>
     </div>
   </header>
-  <NuxtPage />
+
+    <NuxtPage />
   <Footer />
-  <Overlay :open="state.menuOpen" />
+  <Transition>
+    <Overlay v-if="state.menuOpen" />
+  </Transition>
 </template>
 
 <style scoped lang="scss">
 .header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--site-container-width);
+  margin: 2px 30px;
+  z-index: 100;
+  @media screen and (min-width: 1500px) {
+    margin: 20px auto;
+  }
+}
+
+.main {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    flex-flow: column nowrap;
+  }
+  
+  .main > section {
     max-width: var(--site-container-width);
-    margin: 10px auto;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 
-
-
+ 
 </style>
