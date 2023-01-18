@@ -24,6 +24,16 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
+  meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Richmond Based Front End Developer, Technologist - Conor Driscoll'
+      }
+    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
 });
 
 interface State {
@@ -71,7 +81,7 @@ const ToggleMenu = () => {
         :look="headerLook"
       />
 
-      <button class="toggle" @click.prevent="ToggleMenu">
+      <button class="toggle" @click.prevent="ToggleMenu" aria-label="menu toggle">
         <MenuEx :open="state.menuOpen" />
       </button>
     </div>
