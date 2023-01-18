@@ -1,10 +1,22 @@
 <script setup lang="ts">
 const router = useRouter();
+const route = useRoute()
+
 
 router.afterEach((to, from, next) => {
   state.menuOpen = false;
   next;
 });
+
+
+
+const headerLook = computed(() => {
+  if (route.path === '/work') {
+    return 'bright'
+  } else {
+    return ''
+  }
+})
 
 useHead({
   titleTemplate: (titleChunk) => {
@@ -53,8 +65,7 @@ const ToggleMenu = () => {
 <template>
   <header>
     <div class="header">
-
-      <Branding :open="state.menuOpen" :width="state.siteWidth"/>
+      <Branding :open="state.menuOpen" :width="state.siteWidth" :look="headerLook"/>
 
       <a class="toggle" @click.prevent="ToggleMenu">
         <MenuEx :open="state.menuOpen" />
@@ -78,10 +89,10 @@ const ToggleMenu = () => {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  max-width: var(--site-container-width);
-  margin: 5px 0;
+  max-width: var(--site-content-width);
+  margin: 5px;
   z-index: 100;
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1200px) {
     margin: 5px auto;
   }
 }
@@ -101,7 +112,7 @@ const ToggleMenu = () => {
   }
   
   .main > section {
-    max-width: var(--site-container-width);
+    max-width: var(--site-content-width);
     margin: 0 auto;
     width: 100%;
   }

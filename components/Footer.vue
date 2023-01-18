@@ -18,7 +18,7 @@ footer {
   width: 100%;
   div {
     margin: 0 20px;
-    max-width: var(--site-container-width);
+    max-width: var(--site-content-width);
     @media screen and (min-width: 1440px) {
       margin: 0 auto;
       padding: 0 20px;

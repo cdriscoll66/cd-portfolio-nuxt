@@ -20,6 +20,7 @@
     --font-body: 'Bookmania', serif;
     --font-body-size: 18px;
     --site-container-width: 1440px;
+    --site-content-width: 1200px;
     --breakpoint-lg: 1120px;
     --breakpoint-md: 768px;
 }

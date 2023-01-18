@@ -10,6 +10,10 @@ const props = defineProps({
     type: Number,
     required: false,
   },
+  look: {
+    type: String,
+    required: false,
+  },
 });
 
 const screenWidth = computed(() => {
@@ -24,9 +28,19 @@ const screenWidth = computed(() => {
 <template>
 
 <div class="branding">
+
+  <div class="simple-brand">
+        <NuxtLink to="/">
+          <img v-if="props.look === 'bright'" src="@/assets/images/driscoll.svg" width="60" height="60" />
+        <img v-else src="@/assets/images/cd-duotone.svg" width="60" height="60" />
+      </NuxtLink>
+    </div>
+
+    
   <Transition>
   <div v-if="props.open && screenWidth > 500" class="brand-box">
     <div class="logo-box">
+      <img src="@/assets/images/cd-duotone.svg" width="60" height="60" />
     </div>
     <div class="name-box">
       <p class="saltlname">
@@ -41,11 +55,6 @@ const screenWidth = computed(() => {
     </div>
   </div>
 </Transition>
-  <div class="simple-brand">
-        <NuxtLink to="/">
-        <img src="@/assets/images/cd-duotone.svg" width="60" height="60" />
-      </NuxtLink>
-    </div>
     </div>
 </template>
 

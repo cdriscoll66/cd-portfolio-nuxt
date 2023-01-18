@@ -28,10 +28,10 @@
   min-height: 100vh;
   padding-top: 105px;
   & > section {
-    max-width: var(--site-container-width);
+    max-width: var(--site-content-width);
     margin: 0 30px;
     z-index: 1;
-    @media (min-width: 1500px) {
+    @media (min-width: 1260px) {
       margin: 0 auto;
       width: 100%;
     }
@@ -39,18 +39,20 @@
 }
 
 .intro {
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
   @media screen and (min-width: 400px) {
     margin-right: 50px;
   }
   @media screen and (min-width: 860px) {
     margin-right: 0;
-    width: 80%;
+    width: 75%;
   }
 
   @media screen and (min-width: 1120px) {
-    margin-right: 0;
+    width: 65%;
+  }
+  @media screen and (min-width: 1440px) {
     width: 50%;
   }
 }

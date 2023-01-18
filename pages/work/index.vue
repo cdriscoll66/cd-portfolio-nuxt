@@ -21,7 +21,7 @@
                 <span>A configurator for lorem ipsum</span>
               </li>
               <li>
-                <NuxtLink to="https://start.k8ssandra.io" target="_blank"
+                <NuxtLink to="https://www.hot97.com" target="_blank"
                   >Hot97.com</NuxtLink
                 >
                 <span>New York's number one hip hop station</span>
@@ -89,7 +89,7 @@
 
 <style scoped lang="scss">
 main {
-  background-image: url(@/assets/images/astrolabe-2.jpg);
+  background-image: url(@/assets/images/astrolabe-3.webp);
   background-repeat: no-repeat;
   background-color: #000;
   background-size: cover;
@@ -98,7 +98,7 @@ main {
   display: flex;
 }
 .portfolio {
-  margin: 105px 50px;
+  margin: 180px 50px;
   height: calc(100vh - 105px);
   overflow-y: scroll;
   padding-bottom: 50px;
@@ -107,12 +107,15 @@ main {
   &::-webkit-scrollbar {
     display: none;
   }
+  @media screen and (min-width: 1300px){
+    margin: 180px auto;
+  }
 }
 .portfolio__scrollable {
   display: flex;
   flex-flow: column nowrap;
   width: 100%;
-  max-width: var(--site-container-width);
+  max-width: var(--site-content-width);
 
   border-color: var(--color-old-lace);
   border-style: solid;
@@ -145,9 +148,6 @@ main {
   background-size: 50px 2px, 50px 2px, 2px 50px, 2px 50px;
 
   color: var(--color-maniac-mansion);
-  @media screen and (min-width: 1540px) {
-    margin: 105px auto;
-  }
 }
 
 .portfolio__content {
