@@ -26,7 +26,7 @@
 }
 
 /* semantic color variables for this project */
-:root {
+/* :root {
   --color-background: var(--color-old-lace);
 
   --color-border: var(--color-sailor-boy);
@@ -46,6 +46,17 @@
     --color-heading: var(--color-glowing-lantern);
     --color-text: var(--color-old-lace);
   }
+} */
+
+:root {
+  --color-background: var(--color-trapped-darkness);
+  --color-border: var(--color-sailor-boy);
+  --color-border-hover: var(--color-glowing-lantern);
+  --color-heading: var(--color-glowing-lantern);
+  --color-text: var(--color-old-lace);
+
+  --section-gap: 160px;
+
 }
 
 *,
