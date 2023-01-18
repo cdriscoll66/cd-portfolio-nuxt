@@ -28,7 +28,7 @@
               </li>
               <li>
                 <NuxtLink
-                  to="https://luck-100-years.netlify.app/"
+                  to="https://www.luckcompanies100.com/"
                   target="_blank"
                   >Luck 100 years celebration</NuxtLink
                 >
@@ -113,6 +113,7 @@ main {
 }
 .portfolio__scrollable {
   display: flex;
+  margin-bottom: 100px;
   flex-flow: column nowrap;
   width: 100%;
   max-width: var(--site-content-width);
@@ -151,7 +152,7 @@ main {
 }
 
 .portfolio__content {
-  padding: 15px 50px;
+  padding: 15px 50px 50px;
 }
 
 .portfolio__work {
