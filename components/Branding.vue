@@ -30,9 +30,9 @@ const screenWidth = computed(() => {
 <div class="branding">
 
   <div class="simple-brand">
-        <NuxtLink to="/">
-          <img v-if="props.look === 'bright'" src="@/assets/images/driscoll.svg" width="60" height="60" />
-        <img v-else src="@/assets/images/cd-duotone.svg" width="60" height="60" />
+        <NuxtLink to="/" aria-label="CD Home">
+          <img v-if="props.look === 'bright'" src="@/assets/images/driscoll.svg" width="60" height="60" alt="Conor Driscoll Portfolio Icon" />
+        <img v-else src="@/assets/images/cd-duotone.svg" width="60" height="60" alt="Conor Driscoll Portfolio Icon"/>
       </NuxtLink>
     </div>
 
@@ -40,7 +40,7 @@ const screenWidth = computed(() => {
   <Transition>
   <div v-if="props.open && screenWidth > 500" class="brand-box">
     <div class="logo-box">
-      <img src="@/assets/images/cd-duotone.svg" width="60" height="60" />
+      <img src="@/assets/images/cd-duotone.svg" width="60" height="60" alt="Conor Driscoll Portfolio Icon"/>
     </div>
     <div class="name-box">
       <p class="saltlname">
