@@ -1,28 +1,28 @@
 <script setup lang="ts">
 const router = useRouter();
-const route = useRoute()
-
+const route = useRoute();
 
 router.afterEach((to, from, next) => {
   state.menuOpen = false;
   next;
 });
 
-
-
 const headerLook = computed(() => {
-  if (route.path === '/work') {
-    return 'bright'
+  if (route.path === "/work") {
+    return "bright";
   } else {
-    return ''
+    return "";
   }
-})
+});
 
 useHead({
   titleTemplate: (titleChunk) => {
     return titleChunk
       ? `${titleChunk} - Conor Driscoll - JS Dev`
       : "Conor Driscoll - JS Dev";
+  },
+  htmlAttrs: {
+    lang: "en",
   },
 });
 
@@ -65,15 +65,19 @@ const ToggleMenu = () => {
 <template>
   <header>
     <div class="header">
-      <Branding :open="state.menuOpen" :width="state.siteWidth" :look="headerLook"/>
+      <Branding
+        :open="state.menuOpen"
+        :width="state.siteWidth"
+        :look="headerLook"
+      />
 
-      <a class="toggle" @click.prevent="ToggleMenu">
+      <button class="toggle" @click.prevent="ToggleMenu">
         <MenuEx :open="state.menuOpen" />
-      </a>
+      </button>
     </div>
   </header>
 
-    <NuxtPage />
+  <NuxtPage />
   <Footer />
   <Transition>
     <Overlay v-if="state.menuOpen" />
@@ -82,7 +86,7 @@ const ToggleMenu = () => {
 
 <style scoped lang="scss">
 .header {
-  position: fixed; 
+  position: fixed;
   left: 0;
   right: 0;
   display: flex;
@@ -101,23 +105,24 @@ const ToggleMenu = () => {
   display: inline-block;
   line-height: 1;
   margin-right: 20px;
+  background: none;
+  border: none;
+  outline: none;
   svg {
     vertical-align: bottom;
   }
 }
 .main {
-    display: flex;
-    flex-flow: column nowrap;
-    min-height: 100vh;
-  }
-  
-  .main > section {
-    max-width: var(--site-content-width);
-    margin: 0 auto;
-    width: 100%;
-  }
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+}
 
-
+.main > section {
+  max-width: var(--site-content-width);
+  margin: 0 auto;
+  width: 100%;
+}
 
 .v-enter-active,
 .v-leave-active {
@@ -131,7 +136,4 @@ const ToggleMenu = () => {
 .overflow-hidden {
   overflow: hidden;
 }
-
-
- 
 </style>

@@ -7,9 +7,9 @@
     <section>
       <div class="intro">
         <h1>Hi, I&apos;m Conor.</h1>
-        <h4 class="golden">
+        <h2 class="h4 golden">
           I love making beautiful, performant, interesting things.
-        </h4>
+        </h2>
         <p>
           I&apos;m a freelance web developer, and technologist. I spend my days
           in Richmond, Virginia. Thanks for taking a look.
