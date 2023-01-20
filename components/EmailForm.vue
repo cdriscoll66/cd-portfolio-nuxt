@@ -15,12 +15,13 @@ const Form : FormShape = reactive({
     });
 
 const handleSubmit = () => {
+    console.log('submitting form');
 const formData:any = new FormData();
 formData.append('name', Form.name);
-formData.append('email', Form.email);
-formData.append('message', Form.message);
+// formData.append('email', Form.email);
+// formData.append('message', Form.message);
 
-
+ 
     fetch("/", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -37,7 +38,7 @@ formData.append('message', Form.message);
 <template>
 
 
-<form id="contact" name="contact" method="POST" data-netlify-honeypot="bot-field" data-netlify="true">
+<form id="contact" name="contact" data-netlify="true">
     <input type="hidden" value="contact" name="contact" />
     <Transition appear class="delay-16">
   <p>
