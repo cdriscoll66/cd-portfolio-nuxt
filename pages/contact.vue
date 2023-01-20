@@ -1,6 +1,29 @@
+<script setup>
+
+const handleSubmit = () => {
+    console.log('submitting form');
+const formData = new FormData();
+formData.append = ('form-name', 'contact-form'),
+formData.append('name', 'it worked');
+// formData.append('email', Form.email);
+// formData.append('message', Form.message);
+
+ 
+    fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString(),
+  })
+    .then(() => console.log("Form successfully submitted"))
+    .catch((error) => alert(error));
+
+}
+
+</script>
+
 <template>
   <section>
-    <div>
+    <div class="feedback-form">
       <form
         name="contact-form"
         method="post"
@@ -26,7 +49,7 @@
             <textarea name="message" required placeholder="Message"></textarea>
           </div>
           <div>
-            <button type="submit" value="Send message">Submit</button>
+            <button type="submit" value="Send message" @click.prevent="handleSubmit">Submit</button>
           </div>
         </div>
       </form>
@@ -36,7 +59,7 @@
 
 <style scoped>
 .feedback-form {
-  margin: 40px 40px;
+  margin: 140px 40px;
   min-width: 250px;
   width: 45%;
 }
