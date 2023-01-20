@@ -77,8 +77,7 @@ label {
 }
 
 form {
-    /* background-color: var(--color-glowing-lantern); */
-    padding: 0 0px;
+    padding: 0;
 }
 
 input[type='text'], textarea {
@@ -103,6 +102,8 @@ textarea {
   opacity: 0;
   transform: translateY(100px);
 }
+
+button
 
 
 
