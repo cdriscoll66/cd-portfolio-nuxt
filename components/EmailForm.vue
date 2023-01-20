@@ -1,36 +1,36 @@
 <script setup lang="ts">
 
-interface FormShape {
-  form: string;
-  name: string | undefined;
-  email: string | undefined;
-  message: string | undefined;
-}
+// interface FormShape {
+//   form: string;
+//   name: string | undefined;
+//   email: string | undefined;
+//   message: string | undefined;
+// }
 
-const Form : FormShape = reactive({
-    form: '#contact',
-    name: '',
-    email: '',
-    message: ''
-    });
+// const Form : FormShape = reactive({
+//     form: '#contact',
+//     name: '',
+//     email: '',
+//     message: ''
+//     });
 
-const handleSubmit = () => {
-    console.log('submitting form');
-const formData:any = new FormData();
-formData.append('name', Form.name);
-// formData.append('email', Form.email);
-// formData.append('message', Form.message);
+// const handleSubmit = () => {
+//     console.log('submitting form');
+// const formData:any = new FormData();
+// formData.append('name', Form.name);
+// // formData.append('email', Form.email);
+// // formData.append('message', Form.message);
 
  
-    fetch("/", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString(),
-  })
-    .then(() => console.log("Form successfully submitted"))
-    .catch((error) => alert(error));
+//     fetch("/", {
+//     method: "POST",
+//     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+//     body: new URLSearchParams(formData).toString(),
+//   })
+//     .then(() => console.log("Form successfully submitted"))
+//     .catch((error) => alert(error));
 
-}
+// }
 
 
 </script>
@@ -42,7 +42,7 @@ formData.append('name', Form.name);
     <input type="text" name="name" />
     <input type="email" name="email" />
     <textarea name="message"></textarea>
-    <input type="submit" value="Submit" @click.prevent="handleSubmit" />
+    <input type="submit" value="Submit" />
   </form>
 
 
