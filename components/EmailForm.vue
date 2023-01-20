@@ -38,6 +38,15 @@ formData.append('name', Form.name);
 <template>
 
 
+<form name="contact" action="/" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <textarea name="message"></textarea>
+    <input type="submit" value="Submit" @click.prevent="handleSubmit" />
+  </form>
+
+
+<!-- 
 <form id="contact" name="contact" data-netlify="true">
     <input type="hidden" value="contact" name="contact" />
     <Transition appear class="delay-16">
@@ -66,7 +75,7 @@ formData.append('name', Form.name);
     <input type="submit" value="Submit" @click.prevent="handleSubmit">
   </p>
   </Transition>
-</form>
+</form> -->
 </template>
 
 <style scoped lang="scss">
