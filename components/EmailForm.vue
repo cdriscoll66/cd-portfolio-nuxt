@@ -1,31 +1,34 @@
 <script setup lang="ts">
 
+interface FormShape {
+  form: string;
+  name: string | undefined;
+  email: string | undefined;
+  message: string | undefined;
+}
 
-// const handleSubmit = (event: { preventDefault: () => void; target: any; }) => {
-//     console.log('submitting form');
-//   event.preventDefault();
-
-//   const myForm = event.target;
-//   const formData:any = new FormData(myForm);
-  
-//   fetch("/", {
-//     method: "POST",
-//     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-//     body: new URLSearchParams(formData).toString(),
-//   })
-//     .then(() => console.log("Form successfully submitted"))
-//     .catch((error) => alert(error));
-// };
-
-// const form = document.querySelector("form");
-
-// form?.addEventListener("submit", handleSubmit);
-
-const form = ref('#contact');
+const Form : FormShape = reactive({
+    form: '#contact',
+    name: '',
+    email: '',
+    message: ''
+    });
 
 const handleSubmit = () => {
-    console.log('submitting form');
-    // form.value.submit();
+const formData:any = new FormData();
+formData.append('name', Form.name);
+formData.append('email', Form.email);
+formData.append('message', Form.message);
+
+
+    fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString(),
+  })
+    .then(() => console.log("Form successfully submitted"))
+    .catch((error) => alert(error));
+
 }
 
 
@@ -34,13 +37,12 @@ const handleSubmit = () => {
 <template>
 
 
-
 <form id="contact" name="contact" method="POST" data-netlify-honeypot="bot-field" data-netlify="true">
     <input type="hidden" value="contact" name="contact" />
     <Transition appear class="delay-16">
   <p>
     <label for="name">Name </label>
-    <input id="name" type="text" name="name" placeholder="Name"/>
+    <input id="name" type="text" name="name" placeholder="Name" v-model="Form.name"/>
   </p>
 </Transition>
 <Transition appear class="delay-17">
