@@ -68,6 +68,11 @@
   font-weight: normal;
 }
 
+::selection {
+  background: var(--color-hot-butter);
+  color: var(--color-maniac-mansion);
+}
+
 html, body {
   overflow-x: hidden;
   min-height: 100vh;

@@ -1,34 +1,121 @@
 <script setup lang="ts">
 
+
+// const handleSubmit = (event: { preventDefault: () => void; target: any; }) => {
+//     console.log('submitting form');
+//   event.preventDefault();
+
+//   const myForm = event.target;
+//   const formData:any = new FormData(myForm);
+  
+//   fetch("/", {
+//     method: "POST",
+//     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+//     body: new URLSearchParams(formData).toString(),
+//   })
+//     .then(() => console.log("Form successfully submitted"))
+//     .catch((error) => alert(error));
+// };
+
+// const form = document.querySelector("form");
+
+// form?.addEventListener("submit", handleSubmit);
+
+const form = ref('#contact');
+
+const handleSubmit = () => {
+    console.log('submitting form');
+    // form.value.submit();
+}
+
+
 </script>
 
 <template>
 
 
 
-<form name="contact" method="POST" data-netlify-honeypot="bot-field" data-netlify="true">
+<form id="contact" name="contact" method="POST" data-netlify-honeypot="bot-field" data-netlify="true">
     <input type="hidden" value="contact" name="contact" />
+    <Transition appear class="delay-16">
   <p>
-    <label>Your Name: <input type="text" name="name" /></label>
+    <label for="name">Name </label>
+    <input id="name" type="text" name="name" placeholder="Name"/>
   </p>
+</Transition>
+<Transition appear class="delay-17">
+
   <p>
-    <label>Your Email: <input type="email" name="email" /></label>
+    <label for="email">Email </label>
+    <input id="email" type="text" name="email" placeholder="Email"/>
   </p>
+</Transition>
+  <Transition appear class="delay-18">
+
   <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
+    <label for="message">Message </label>
+    <textarea id="message" name="message" placeholder="Drop me a note"></textarea>
   </p>
+</Transition>
+<Transition appear class="delay-19">
+
   <p>
-    <label>Message: <textarea name="message"></textarea></label>
+    <input type="submit" value="Submit" @click.prevent="handleSubmit">
   </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
+  </Transition>
 </form>
 </template>
 
 <style scoped lang="scss">
 
+
+label {
+    display:none;
+}
+
+form {
+    /* background-color: var(--color-glowing-lantern); */
+    padding: 0 0px;
+}
+
+input[type='text'], textarea {
+    background-color: var(--color-trapped-darkness);
+    border: 3px solid var(--color-maniac-mansion);
+    color: var(--color-old-lace);
+    font-family: 'Henderson Slab', serif;
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+textarea {
+  resize: none;
+}
+
+.v-enter-active {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.v-enter-from {
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+
+
+.delay-16 {
+  transition-delay: 1.6s;
+}
+
+.delay-17 {
+  transition-delay: 1.7s;
+}
+
+.delay-18 {
+  transition-delay: 1.8s;
+}
+
+.delay-19 {
+  transition-delay: 1.9s;
+}
 </style>

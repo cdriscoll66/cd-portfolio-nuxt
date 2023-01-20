@@ -40,7 +40,7 @@ const screenWidth = computed(() => {
   <Transition>
   <div v-if="props.open && screenWidth > 500" class="brand-box">
     <div class="logo-box">
-      <img src="@/assets/images/cd-duotone.svg" width="60" height="60" alt="Conor Driscoll Portfolio Icon"/>
+      <NuxtLink to="/" aria-label="CD Home"><img src="@/assets/images/cd-duotone.svg" width="60" height="60" alt="Conor Driscoll Portfolio Icon"/></NuxtLink>
     </div>
     <div class="name-box">
       <p class="saltlname">

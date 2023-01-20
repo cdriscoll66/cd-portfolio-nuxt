@@ -12,16 +12,20 @@
             </h3>
           </div>
         </Transition>
-        <Transition appear class="delay-125">
           <div class="overlay__menu">
+            <Transition appear class="delay-125">
             <NuxtLink to="/work">Work</NuxtLink>
+            </Transition>
+            <Transition appear class="delay-15">
             <NuxtLink to="/styleguide">About</NuxtLink>
+            </Transition>
           </div>
-        </Transition>
       </div>
       <div class="col__2">
         <div class="overlay__form">
-          <h3>Form</h3>
+          <Transition appear class="delay-10">
+          <h3>Drop me a line!</h3>
+          </Transition>
           <EmailForm />
         </div>
       </div>
@@ -48,6 +52,31 @@ h3 {
   margin-top: 0;
   line-height: 1.1;
 }
+
+a {
+  font-size: 2rem;
+  text-transform: uppercase; 
+  font-family: 'Henderson Slab', serif;
+  width: fit-content;
+  &::before {
+  content: '';
+  background-color: var(--color-hot-butter);
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  height: 8px;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+&:hover::before {
+  bottom: 30%;
+  left: 20px;
+  height: 30px;
+}
+}
+
+
 .overlay {
   margin: 135px 5px 20px;
   /* background-color: var(--color-sailor-boy); */
@@ -88,14 +117,23 @@ h3 {
 }
 .v-enter-from {
   opacity: 0;
-  transform: translateY(20%);
+  transform: translateY(100px);
 }
 
 .delay-075 {
   transition-delay: 0.75s;
 }
 
+.delay-10 {
+  transition-delay: 1s;
+}
+
+
 .delay-125 {
   transition-delay: 1.25s;
+}
+
+.delay-15 {
+  transition-delay: 1.5s;
 }
 </style>
