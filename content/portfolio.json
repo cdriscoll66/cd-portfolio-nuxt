@@ -5,16 +5,16 @@
     "description": "Vue Application to guides users thru to configure a K8ssandra installation. ",
     "full_description": "Vue Application to guides users thru to configure a K8ssandra installation. Built as a supplemementary tool to the K8ssandra documentation. Vue Application to guides users thru to configure a K8ssandra installation. Built as a supplemementary tool to the K8ssandra documentation. Vue Application to guides users thru to configure a K8ssandra installation. Built as a supplemementary tool to the K8ssandra documentation.",
     "collaborators": [
-        {
-            "name": "Cesley Musngi",
-            "role": "UI Designer"
-        },
-        {
-            "name": "Joanna Snodgrass",
-            "role": "UX Strategist"
-        }
+      {
+        "name": "Cesley Musngi",
+        "role": "UI Designer"
+      },
+      {
+        "name": "Joanna Snodgrass",
+        "role": "UX Strategist"
+      }
     ],
-     "links": [
+    "links": [
       {
         "text": "See the App",
         "url": "https://start.k8ssandra.io/"
@@ -26,7 +26,9 @@
         "src": "k8ssandra-config.webp",
         "alt": "K8ssandra Configurator"
       }
-    ]
+    ],
+    "dark": false,
+    "right": false
   },
   {
     "slug": "hot97-com",
@@ -34,14 +36,14 @@
     "description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station.",
     "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
     "collaborators": [
-        {
-            "name": "Cesley Musngi",
-            "role": "UI Designer"
-        },
-        {
-            "name": "Joanna Snodgrass",
-            "role": "UX Strategist"
-        }
+      {
+        "name": "Cesley Musngi",
+        "role": "UI Designer"
+      },
+      {
+        "name": "Joanna Snodgrass",
+        "role": "UX Strategist"
+      }
     ],
     "links": [
       {
@@ -55,7 +57,9 @@
         "src": "hot97.webp",
         "alt": "Hot97.com"
       }
-    ]
+    ],
+    "dark": false,
+    "right": false
   },
   {
     "slug": "luck-100-years",
@@ -63,14 +67,14 @@
     "description": "A commemorative website for the 100th anniversary of Luck Companies.",
     "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
     "collaborators": [
-        {
-            "name": "Cesley Musngi",
-            "role": "UI Designer"
-        },
-        {
-            "name": "Joanna Snodgrass",
-            "role": "UX Strategist"
-        }
+      {
+        "name": "Cesley Musngi",
+        "role": "UI Designer"
+      },
+      {
+        "name": "Joanna Snodgrass",
+        "role": "UX Strategist"
+      }
     ],
     "links": [
       {
@@ -84,7 +88,9 @@
         "src": "luck-100.webp",
         "alt": "Hot97.com"
       }
-    ]
+    ],
+    "dark": true,
+    "right": false
   },
   {
     "slug": "architect-io",
@@ -92,14 +98,14 @@
     "description": "A commemorative website for the 100th anniversary of Luck Companies.",
     "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
     "collaborators": [
-        {
-            "name": "Cesley Musngi",
-            "role": "UI Designer"
-        },
-        {
-            "name": "Joanna Snodgrass",
-            "role": "UX Strategist"
-        }
+      {
+        "name": "Cesley Musngi",
+        "role": "UI Designer"
+      },
+      {
+        "name": "Joanna Snodgrass",
+        "role": "UX Strategist"
+      }
     ],
     "links": [
       {
@@ -113,7 +119,9 @@
         "src": "architectio.webp",
         "alt": "Hot97.com"
       }
-    ]
+    ],
+    "dark": false,
+    "right": false
   },
   {
     "slug": "team-colab",
@@ -121,14 +129,14 @@
     "description": "COLAB digital agency was my home for some time-- I rebuilt their website to be more modern and mobile friendly.",
     "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
     "collaborators": [
-        {
-            "name": "Cesley Musngi",
-            "role": "UI Designer"
-        },
-        {
-            "name": "Joanna Snodgrass",
-            "role": "UX Strategist"
-        }
+      {
+        "name": "Cesley Musngi",
+        "role": "UI Designer"
+      },
+      {
+        "name": "Joanna Snodgrass",
+        "role": "UX Strategist"
+      }
     ],
     "links": [
       {
@@ -142,7 +150,9 @@
         "src": "colab.webp",
         "alt": "Hot97.com"
       }
-    ]
+    ],
+    "dark": true,
+    "right": false
   },
   {
     "slug": "texas-a-m-gradschool",
@@ -150,14 +160,14 @@
     "description": "Front End Development for the Kentico site rebuild for the Texas A&M Graduate School.",
     "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
     "collaborators": [
-        {
-            "name": "Cesley Musngi",
-            "role": "UI Designer"
-        },
-        {
-            "name": "Joanna Snodgrass",
-            "role": "UX Strategist"
-        }
+      {
+        "name": "Cesley Musngi",
+        "role": "UI Designer"
+      },
+      {
+        "name": "Joanna Snodgrass",
+        "role": "UX Strategist"
+      }
     ],
     "links": [
       {
@@ -171,7 +181,9 @@
         "src": "tamu.webp",
         "alt": "Hot97.com"
       }
-    ]
+    ],
+    "dark": false,
+    "right": false
   },
   {
     "slug": "ncel-pick-3-pick-4",
@@ -179,14 +191,14 @@
     "description": "Vue Application explainers tutorial walk throughs for the NC Education Lottery Pick 3 and Pick 4 games.",
     "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
     "collaborators": [
-        {
-            "name": "Cesley Musngi",
-            "role": "UI Designer"
-        },
-        {
-            "name": "Joanna Snodgrass",
-            "role": "UX Strategist"
-        }
+      {
+        "name": "Cesley Musngi",
+        "role": "UI Designer"
+      },
+      {
+        "name": "Joanna Snodgrass",
+        "role": "UX Strategist"
+      }
     ],
     "links": [
       {
@@ -204,6 +216,8 @@
         "src": "ncel34.webp",
         "alt": "Hot97.com"
       }
-    ]
+    ],
+    "dark": true,
+    "right": true
   }
 ]

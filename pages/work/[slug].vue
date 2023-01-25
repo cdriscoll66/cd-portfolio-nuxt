@@ -11,6 +11,8 @@ const single = portfolio.find((piece) => piece.slug === route.params.slug) ?? {
   collaborators: [],
   links: [],
   media: [],
+  dark: Boolean,
+  right: Boolean
 };
 
 
@@ -20,10 +22,10 @@ const single = portfolio.find((piece) => piece.slug === route.params.slug) ?? {
 
 <template>
   <main>
-    <div class="bg-img">
-        <img v-bind:src="`/assets/images/tamu.webp`" />
+    <div class="bg-img inner-shadow">
+        <img v-bind:src="`/images/${single.media[0].src}`" />
     </div>
-    <div class="description__container">
+    <div :class="['description__container', single.dark ? 'dark':'', single.right ? 'right':'']">
         <div class="description__top">
             <h1 class="h4">{{ single.name }}</h1>
                     <div class="description__links">
@@ -69,6 +71,11 @@ main {
     left: 0;
     height: 100vh;
     width: 100vw;
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
 }
 
 .description__container {
@@ -128,5 +135,25 @@ main {
     & > div {
      width: 25%;
     }
+}
+
+.dark {
+    background-color: var(--color-maniac-mansion);
+    color: var(--color-old-lace);
+}
+
+.right {
+    right: 0;
+}
+
+
+.inner-shadow:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0em 4em rgb(0 0 0 / 33%)
 }
 </style>

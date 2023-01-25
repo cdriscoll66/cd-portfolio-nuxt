@@ -17,7 +17,7 @@ import portfolio from "@/content/portfolio.json";
           <div class="portfolio__work">
             <ul>
               <li v-for="(piece, key) in portfolio" :key="key">
-                <NuxtLink :to="`/work/${piece.slug}`" target="_blank">{{
+                <NuxtLink :to="`/work/${piece.slug}`">{{
                   piece.name
                 }}</NuxtLink>
                 <span>{{ piece.description }}</span>
