@@ -26,7 +26,7 @@
           <Transition appear class="delay-10">
           <h3>Drop me a line!</h3>
           </Transition>
-          <EmailForm />
+          <!-- <EmailForm /> -->
         </div>
       </div>
     </div>

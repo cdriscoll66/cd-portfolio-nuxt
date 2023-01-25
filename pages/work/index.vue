@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import portfolio from "@/content/portfolio.json";
+</script>
 
 <template>
   <main>
@@ -14,70 +16,11 @@
           </div>
           <div class="portfolio__work">
             <ul>
-              <li>
-                <NuxtLink to="https://start.k8ssandra.io" target="_blank"
-                  >K8ssandra Configuration Builder</NuxtLink
-                >
-                <span>A configurator for lorem ipsum</span>
-              </li>
-              <li>
-                <NuxtLink to="https://www.hot97.com" target="_blank"
-                  >Hot97.com</NuxtLink
-                >
-                <span>New York's number one hip hop station</span>
-              </li>
-              <li>
-                <NuxtLink
-                  to="https://www.luckcompanies100.com/"
-                  target="_blank"
-                  >Luck 100 years celebration</NuxtLink
-                >
-                <span
-                  >Luck Companies is celebrating a centennial - and wanted to
-                  commemorrate their history with a showcase</span
-                >
-              </li>
-              <li>
-                <NuxtLink to="https://www.architect.io/" target="_blank"
-                  >Architect.io</NuxtLink
-                >
-                <span
-                  >Landing and marketing pages for Architect.io and it's
-                  application</span
-                >
-              </li>
-              <li>
-                <NuxtLink to="https://www.teamcolab.com" target="_blank"
-                  >Team Colab</NuxtLink
-                >
-                <span
-                  >I worked as a Senior Dev for team colab for years, and built the companies site.</span
-                >
-              </li>
-              <li>
-                <NuxtLink to="https://grad.tamu.edu/" target="_blank"
-                  >Texas A & M Graduate School Portal</NuxtLink
-                >
-                <span
-                  >Front End Dev for Exterior teams for Kentico, Strategy and
-                  Design</span
-                >
-              </li>
-              <li>
-                <NuxtLink
-                  to="https://nclottery-pick4.netlify.app/"
-                  target="_blank"
-                  >North Carolina Pick 4</NuxtLink
-                >
-                <NuxtLink
-                  to="https://nclottery-pick3.netlify.app/"
-                  target="_blank"
-                  >& Pick 3</NuxtLink
-                >
-                <span
-                  >Game Design and Build for Educating players on Game
-                  approach</span
-                >
+              <li v-for="(piece, key) in portfolio" :key="key">
+                <NuxtLink :to="`/work/${piece.slug}`" target="_blank">{{
+                  piece.name
+                }}</NuxtLink>
+                <span>{{ piece.description }}</span>
               </li>
             </ul>
           </div>
@@ -107,7 +50,7 @@ main {
   &::-webkit-scrollbar {
     display: none;
   }
-  @media screen and (min-width: 1300px){
+  @media screen and (min-width: 1300px) {
     margin: 180px auto;
   }
 }

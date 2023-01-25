@@ -117,7 +117,6 @@ const ToggleMenu = () => {
   margin-right: 20px;
   background: none;
   border: none;
-  outline: none;
   svg {
     vertical-align: bottom;
   }

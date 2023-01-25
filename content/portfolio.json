@@ -1,0 +1,209 @@
+[
+  {
+    "slug": "k8ssandra-configurator",
+    "name": "K8ssandra Configurator",
+    "description": "Vue Application to guides users thru to configure a K8ssandra installation. ",
+    "full_description": "Vue Application to guides users thru to configure a K8ssandra installation. Built as a supplemementary tool to the K8ssandra documentation.",
+    "collaborators": [
+        {
+            "name": "Cesley Musngi",
+            "role": "UI Designer"
+        },
+        {
+            "name": "Joanna Snodgrass",
+            "role": "UX Strategist"
+        }
+    ],
+     "links": [
+      {
+        "text": "See the App",
+        "url": "https://start.k8ssandra.io/"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://raw.githubusercontent.com/k8ssandra/k8ssandra-configurator/main/docs/images/k8ssandra-configurator.png",
+        "alt": "K8ssandra Configurator"
+      }
+    ]
+  },
+  {
+    "slug": "hot97-com",
+    "name": "Hot97.com",
+    "description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station.",
+    "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
+    "collaborators": [
+        {
+            "name": "Cesley Musngi",
+            "role": "UI Designer"
+        },
+        {
+            "name": "Joanna Snodgrass",
+            "role": "UX Strategist"
+        }
+    ],
+    "links": [
+      {
+        "text": "Hot 97 Site",
+        "url": "https://www.hot97.com/"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://raw.githubusercontent.com/bradleyhop/bradleyhop.github.io/master/assets/images/hot97.png",
+        "alt": "Hot97.com"
+      }
+    ]
+  },
+  {
+    "slug": "luck-100-years",
+    "name": "Luck 100 Years Celebration",
+    "description": "A commemorative website for the 100th anniversary of Luck Companies.",
+    "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
+    "collaborators": [
+        {
+            "name": "Cesley Musngi",
+            "role": "UI Designer"
+        },
+        {
+            "name": "Joanna Snodgrass",
+            "role": "UX Strategist"
+        }
+    ],
+    "links": [
+      {
+        "text": "Luck 100 Years",
+        "url": "https://www.luckcompanies100.com/"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://raw.githubusercontent.com/bradleyhop/bradleyhop.github.io/master/assets/images/hot97.png",
+        "alt": "Hot97.com"
+      }
+    ]
+  },
+  {
+    "slug": "architect-io",
+    "name": "Architect.io",
+    "description": "A commemorative website for the 100th anniversary of Luck Companies.",
+    "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
+    "collaborators": [
+        {
+            "name": "Cesley Musngi",
+            "role": "UI Designer"
+        },
+        {
+            "name": "Joanna Snodgrass",
+            "role": "UX Strategist"
+        }
+    ],
+    "links": [
+      {
+        "text": "Architect.io",
+        "url": "https://www.architect.io/"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://raw.githubusercontent.com/bradleyhop/bradleyhop.github.io/master/assets/images/hot97.png",
+        "alt": "Hot97.com"
+      }
+    ]
+  },
+  {
+    "slug": "team-colab",
+    "name": "TeamCOLAB.com",
+    "description": "COLAB digital agency was my home for some time-- I rebuilt their website to be more modern and mobile friendly.",
+    "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
+    "collaborators": [
+        {
+            "name": "Cesley Musngi",
+            "role": "UI Designer"
+        },
+        {
+            "name": "Joanna Snodgrass",
+            "role": "UX Strategist"
+        }
+    ],
+    "links": [
+      {
+        "text": "TeamCOLAB.com",
+        "url": "https://www.teamcolab.com/"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://raw.githubusercontent.com/bradleyhop/bradleyhop.github.io/master/assets/images/hot97.png",
+        "alt": "Hot97.com"
+      }
+    ]
+  },
+  {
+    "slug": "texas-a-m-gradschool",
+    "name": "Texas A&M Graduate School",
+    "description": "Front End Development for the Kentico site rebuild for the Texas A&M Graduate School.",
+    "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
+    "collaborators": [
+        {
+            "name": "Cesley Musngi",
+            "role": "UI Designer"
+        },
+        {
+            "name": "Joanna Snodgrass",
+            "role": "UX Strategist"
+        }
+    ],
+    "links": [
+      {
+        "text": "Texas A&M Graduate School",
+        "url": "https://grad.tamu.edu/"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://raw.githubusercontent.com/bradleyhop/bradleyhop.github.io/master/assets/images/hot97.png",
+        "alt": "Hot97.com"
+      }
+    ]
+  },
+  {
+    "slug": "ncel-pick-3-pick-4",
+    "name": "Nort Carolina Education Lottery Pick 3 and Pick 4 Tutorials",
+    "description": "Vue Application explainers tutorial walk throughs for the NC Education Lottery Pick 3 and Pick 4 games.",
+    "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
+    "collaborators": [
+        {
+            "name": "Cesley Musngi",
+            "role": "UI Designer"
+        },
+        {
+            "name": "Joanna Snodgrass",
+            "role": "UX Strategist"
+        }
+    ],
+    "links": [
+      {
+        "text": "See The Pick 3 App",
+        "url": "https://nclottery-pick3.netlify.app/"
+      },
+      {
+        "text": "See the Pick 4 App",
+        "url": "https://nclottery-pick4.netlify.app/"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://raw.githubusercontent.com/bradleyhop/bradleyhop.github.io/master/assets/images/hot97.png",
+        "alt": "Hot97.com"
+      }
+    ]
+  }
+]
