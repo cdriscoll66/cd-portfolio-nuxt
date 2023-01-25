@@ -12,15 +12,21 @@ const single = portfolio.find((piece) => piece.slug === route.params.slug) ?? {
   links: [],
   media: [],
 };
+
+
+
+
 </script>
 
 <template>
   <main>
+    <div class="bg-img">
+        <img v-bind:src="`/assets/images/tamu.webp`" />
+    </div>
     <div class="description__container">
-      <h1 class="h4">{{ single.name }}</h1>
-      <p>{{ single.full_description }}</p>
-      <div class="description__bottom">
-        <div class="description__links">
+        <div class="description__top">
+            <h1 class="h4">{{ single.name }}</h1>
+                    <div class="description__links">
           <a
             v-for="(link, key) in single.links"
             :key="key"
@@ -29,6 +35,11 @@ const single = portfolio.find((piece) => piece.slug === route.params.slug) ?? {
             >{{ link.text }}</a
           >
           </div>
+        </div>
+      
+      <p>{{ single.full_description }}</p>
+      <div class="description__bottom">
+
           <div class="description__collaborators">
             <div v-for="(collaborator, key) in single.collaborators" :key="key">
                 <h5>{{ collaborator.role }}</h5>
@@ -47,6 +58,17 @@ main {
   margin: 0 auto;
   padding-top: 150px;
   height: 100vh;
+}
+
+.bg-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
 }
 
 .description__container {
@@ -85,6 +107,12 @@ main {
   bottom: 40px;
 }
 
+.description__top {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
 .description__bottom {
     display: flex;
     flex-flow: row wrap;
@@ -93,8 +121,12 @@ main {
 
 .description__collaborators {
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    margin-top: 50px;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-top: 30px;
+    width: 100%;
+    & > div {
+     width: 25%;
+    }
 }
 </style>

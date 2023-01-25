@@ -3,7 +3,7 @@
     "slug": "k8ssandra-configurator",
     "name": "K8ssandra Configurator",
     "description": "Vue Application to guides users thru to configure a K8ssandra installation. ",
-    "full_description": "Vue Application to guides users thru to configure a K8ssandra installation. Built as a supplemementary tool to the K8ssandra documentation.",
+    "full_description": "Vue Application to guides users thru to configure a K8ssandra installation. Built as a supplemementary tool to the K8ssandra documentation. Vue Application to guides users thru to configure a K8ssandra installation. Built as a supplemementary tool to the K8ssandra documentation. Vue Application to guides users thru to configure a K8ssandra installation. Built as a supplemementary tool to the K8ssandra documentation.",
     "collaborators": [
         {
             "name": "Cesley Musngi",
@@ -23,7 +23,7 @@
     "media": [
       {
         "type": "image",
-        "src": "https://raw.githubusercontent.com/k8ssandra/k8ssandra-configurator/main/docs/images/k8ssandra-configurator.png",
+        "src": "k8ssandra-config.webp",
         "alt": "K8ssandra Configurator"
       }
     ]
@@ -52,7 +52,7 @@
     "media": [
       {
         "type": "image",
-        "src": "https://raw.githubusercontent.com/bradleyhop/bradleyhop.github.io/master/assets/images/hot97.png",
+        "src": "hot97.webp",
         "alt": "Hot97.com"
       }
     ]
@@ -81,7 +81,7 @@
     "media": [
       {
         "type": "image",
-        "src": "https://raw.githubusercontent.com/bradleyhop/bradleyhop.github.io/master/assets/images/hot97.png",
+        "src": "luck-100.webp",
         "alt": "Hot97.com"
       }
     ]
@@ -110,7 +110,7 @@
     "media": [
       {
         "type": "image",
-        "src": "https://raw.githubusercontent.com/bradleyhop/bradleyhop.github.io/master/assets/images/hot97.png",
+        "src": "architectio.webp",
         "alt": "Hot97.com"
       }
     ]
@@ -139,7 +139,7 @@
     "media": [
       {
         "type": "image",
-        "src": "https://raw.githubusercontent.com/bradleyhop/bradleyhop.github.io/master/assets/images/hot97.png",
+        "src": "colab.webp",
         "alt": "Hot97.com"
       }
     ]
@@ -168,7 +168,7 @@
     "media": [
       {
         "type": "image",
-        "src": "https://raw.githubusercontent.com/bradleyhop/bradleyhop.github.io/master/assets/images/hot97.png",
+        "src": "tamu.webp",
         "alt": "Hot97.com"
       }
     ]
@@ -201,7 +201,7 @@
     "media": [
       {
         "type": "image",
-        "src": "https://raw.githubusercontent.com/bradleyhop/bradleyhop.github.io/master/assets/images/hot97.png",
+        "src": "ncel34.webp",
         "alt": "Hot97.com"
       }
     ]
