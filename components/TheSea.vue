@@ -4,7 +4,7 @@
 
 <template>
     <div class="bg">
-        <div class="moon"></div>
+        <div class="moon"><span></span></div>
         <div class="star"></div>
         <div class="clouds"></div>
         <BgVideo />
@@ -55,7 +55,15 @@
   height: 50px;
   border-radius: 50%;
   z-index: 0;
-  background-color: #fccf88;
+  background: 
+  radial-gradient( circle at 46% 79%, rgba(215,152,71,.5) 28%, #fff0 45% ), 
+  radial-gradient( circle at 56% 87%, rgba(215,152,71,.8) 8%, #fff0 25% ), 
+  radial-gradient( circle at 66% 57%, rgba(215,152,71,.8) 4%, #fff0 15% ), 
+  radial-gradient( circle at 70% 62%, rgba(215,152,71,.8) 2%, #fff0 10% ), 
+  radial-gradient( circle at 20% 12%, rgba(215,152,71,.8) 2%, #fff0 34% ), 
+  radial-gradient( circle at 40% 35%, rgba(215,152,71,.8) 4%, #fff0 20% ), 
+  radial-gradient( circle at 80% 35%, rgba(255,240,200,1) 10%, #fff0 30% ), 
+  radial-gradient( circle at 0% 0%, #fccf88 100%, #fff0 100% );
   box-shadow: 0px 0px 70px 30px rgba(245, 178, 62, 0.6);
 
   right: -35px;
