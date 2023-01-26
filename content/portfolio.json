@@ -2,16 +2,20 @@
   {
     "slug": "k8ssandra-configurator",
     "name": "K8ssandra Configurator",
-    "description": "Vue Application to guides users thru to configure a K8ssandra installation. ",
-    "full_description": "Vue Application to guides users thru to configure a K8ssandra installation. Built as a supplemementary tool to the K8ssandra documentation. Vue Application to guides users thru to configure a K8ssandra installation. Built as a supplemementary tool to the K8ssandra documentation. Vue Application to guides users thru to configure a K8ssandra installation. Built as a supplemementary tool to the K8ssandra documentation.",
+    "description": "Vue Application to guides users in configuring a K8ssandra installation. For Datastax, and 2021 Bronze award - Richmond Ad Club",
+    "full_description": "This Vue Application guides users thru configuring a K8ssandra installation. Built as a supplementary tool to the K8ssandra documentation. The configurator was created for DataStax by our team at COLAB along with their Enterprise WordPress site. The Documentation (built in Hugo) and their forum site were styled and aligned by our team. The K8ssandra Configurator won a bronze award at the 2021 Richmond Ad Club awards.",
     "collaborators": [
       {
-        "name": "Cesley Musngi",
+        "name": ["Cesley Musngi"],
         "role": "UI Designer"
       },
       {
-        "name": "Joanna Snodgrass",
+        "name": ["Joanna Snodgrass"],
         "role": "UX Strategist"
+      },
+      {
+        "name": ["Gretel Trost"],
+        "role": "Developer"
       }
     ],
     "links": [
@@ -33,16 +37,24 @@
   {
     "slug": "hot97-com",
     "name": "Hot97.com",
-    "description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station.",
-    "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
+    "description": "An Enterprise WordPress site for New York's #1 Hip Hop and R&B radio station. A Content Hub and API for Hot 97 Mobile App",
+    "full_description": "An Enterprise WordPress site for New York's #1 Hip Hop and R&B radio station. Our Team worked in collaboration with the team at Shockoe Digital to deliver a bespoke CMS site, on-brand design, and unique functionality. The main Hot 97 site was built as a content hub for other Hot 97 Products; particularly a mobile app built by Shockoe. Our team worked with a tight deadline to try and launch before Summer Jam ‘22 and worked with ad vendor software, live streaming music software, video monetization systems, and Amazon Cognito. This site was also the basis for WBLS.com.",
     "collaborators": [
       {
-        "name": "Cesley Musngi",
+        "name": ["Cesley Musngi"],
         "role": "UI Designer"
       },
       {
-        "name": "Joanna Snodgrass",
+        "name": ["Tyler Pease"],
         "role": "UX Strategist"
+      },
+      {
+        "name": ["Francis Yaconiello"],
+        "role": "Software Engineer"
+      },
+      {
+        "name": ["John Mitchell", "J Ivy"],
+        "role": "Fellow WP Devs"
       }
     ],
     "links": [
@@ -65,14 +77,14 @@
     "slug": "luck-100-years",
     "name": "Luck 100 Years Celebration",
     "description": "A commemorative website for the 100th anniversary of Luck Companies.",
-    "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
+    "full_description": "Luck Stone, the nation’s largest producer of crushed stone, sand, and gravel, is celebrating its 100-year anniversary in 2023. To commemorate the occasion, and showcase the rich history of Luck, our team built a 100 years site using Vue (Nuxt). It was one of my favorite sites I worked on while at COLAB. I had a lot of fun with the 100 years section that incorporates a 3D scroll effect.",
     "collaborators": [
       {
-        "name": "Cesley Musngi",
+        "name": ["Cesley Musngi", "Juan Angot"],
         "role": "UI Designer"
       },
       {
-        "name": "Joanna Snodgrass",
+        "name": ["Tyler Pease"],
         "role": "UX Strategist"
       }
     ],
@@ -86,7 +98,7 @@
       {
         "type": "image",
         "src": "luck-100.webp",
-        "alt": "Hot97.com"
+        "alt": "Luck companies 100 years"
       }
     ],
     "dark": true,
@@ -95,16 +107,12 @@
   {
     "slug": "architect-io",
     "name": "Architect.io",
-    "description": "A commemorative website for the 100th anniversary of Luck Companies.",
-    "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
+    "description": "A WordPress replatform project that is performant and integrates with all of Architect's web properties.",
+    "full_description": "The Architect team is building an impressive development platform for full stack Apps. They are a fast-moving and capable team but needed support with marketing efforts. I offered that support by re-platforming their existing site into a Block Editor-built Enterprise WordPress site. Using a handful of custom blocks, but mostly styled core blocks, the site was one of COLAB’s top sites in performant page speed. It also offered a solid foundation for the Architect’s recent rebrand.",
     "collaborators": [
       {
-        "name": "Cesley Musngi",
-        "role": "UI Designer"
-      },
-      {
-        "name": "Joanna Snodgrass",
-        "role": "UX Strategist"
+        "name": ["Jessica Wilson"],
+        "role": "Rebrand Developer"
       }
     ],
     "links": [
@@ -117,7 +125,7 @@
       {
         "type": "image",
         "src": "architectio.webp",
-        "alt": "Hot97.com"
+        "alt": "architect.io replatform"
       }
     ],
     "dark": false,
@@ -126,16 +134,20 @@
   {
     "slug": "team-colab",
     "name": "TeamCOLAB.com",
-    "description": "COLAB digital agency was my home for some time-- I rebuilt their website to be more modern and mobile friendly.",
-    "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
+    "description": "COLAB digital agency was my home. When we rebuilt our own site, we wanted to make it performant.",
+    "full_description": "Team COLAB had gone through a handful of iterations during my time with the company. In the most recent design, we wanted to base the sites build on standard core blocks, but push the design outside of the standard layouts. This redesign was paired with a new marketing strategy looking at DevOps and how COLAB partners with its clients. The site is completely customizable using the Block Editor and optimized for performance and ADA compliance.",
     "collaborators": [
       {
-        "name": "Cesley Musngi",
+        "name": ["Cesley Musngi"],
         "role": "UI Designer"
       },
       {
-        "name": "Joanna Snodgrass",
+        "name": ["Tyler Pease"],
         "role": "UX Strategist"
+      },
+      {
+        "name": ["J Ivy"],
+        "role": "Fellow WP Dev"
       }
     ],
     "links": [
@@ -148,7 +160,7 @@
       {
         "type": "image",
         "src": "colab.webp",
-        "alt": "Hot97.com"
+        "alt": "Team Colab Site"
       }
     ],
     "dark": true,
@@ -157,16 +169,16 @@
   {
     "slug": "texas-a-m-gradschool",
     "name": "Texas A&M Graduate School",
-    "description": "Front End Development for the Kentico site rebuild for the Texas A&M Graduate School.",
-    "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
+    "description": "Front-end Development for the Kentico site rebuild for the Texas A&M Graduate School.",
+    "full_description": "The Graduate School at Texas A & M University was rebuilding its site and set EAB with the task. EAB’s team was in its infancy so looked to COLAB and some other teams with which to partner. A requirement was to build and connect with the University-wide Kentico system - Our team focused on the Front End build and worked with KehrenDev Kentico Devs to implement EAB’s strategy and design.",
     "collaborators": [
       {
-        "name": "Cesley Musngi",
-        "role": "UI Designer"
+        "name": ["EAB Team"],
+        "role": "UX/UI Designer"
       },
       {
-        "name": "Joanna Snodgrass",
-        "role": "UX Strategist"
+        "name": ["KehrenDev"],
+        "role": "Kentico Developer"
       }
     ],
     "links": [
@@ -179,7 +191,7 @@
       {
         "type": "image",
         "src": "tamu.webp",
-        "alt": "Hot97.com"
+        "alt": "Texas A&M Graduate School"
       }
     ],
     "dark": false,
@@ -187,26 +199,26 @@
   },
   {
     "slug": "ncel-pick-3-pick-4",
-    "name": "Nort Carolina Education Lottery Pick 3 and Pick 4 Tutorials",
+    "name": "North Carolina Education Lottery Pick 3 and Pick 4 Tutorials",
     "description": "Vue Application explainers tutorial walk throughs for the NC Education Lottery Pick 3 and Pick 4 games.",
-    "full_description": "An Enterprise WordPress site for New York's Hip Hop and R&B radio station. Worked in Collaboration with the Team at Shockoe to deliver on custom, on-brand designs and functionality.",
+    "full_description": "The North Carolina Education Lottery has worked with COLAB before on a handful of projects mostly with a focus on educating players and vendors on how the games work, what are the odds of winning, etc. During a push to Pick 3 and Pick 4 with Fireball, they asked our team to create a tutorial and simulated game. I did so using Vue3; creating a custom video playing system, as well as, a game that draws randomly - with stacked odds (to up the chances of a recent win).",
     "collaborators": [
       {
-        "name": "Cesley Musngi",
+        "name": ["Juan Angot"],
         "role": "UI Designer"
       },
       {
-        "name": "Joanna Snodgrass",
+        "name": ["Tyler Pease"],
         "role": "UX Strategist"
       }
     ],
     "links": [
       {
-        "text": "See The Pick 3 App",
+        "text": "Pick 3",
         "url": "https://nclottery-pick3.netlify.app/"
       },
       {
-        "text": "See the Pick 4 App",
+        "text": "Pick 4",
         "url": "https://nclottery-pick4.netlify.app/"
       }
     ],
@@ -214,7 +226,42 @@
       {
         "type": "image",
         "src": "ncel34.webp",
-        "alt": "Hot97.com"
+        "alt": "North Carolina Education Lottery Pick 3 and Pick 4 Tutorials"
+      }
+    ],
+    "dark": true,
+    "right": true
+  },
+  {
+    "slug": "marine-corp-marathon",
+    "name": "The Marine Corps Marathon",
+    "description": "A Rebranded Site using the COLAB WordPress starter, and a custom theme.",
+    "full_description": "The Marine Corps Marathon hired COLAB to do a rebrand and site rebuild. This was a collaborative effort of our team, but I was into the featured race block, which uses logic and the present date to surface what the next event will be and showcases it. The subsequent events follow in line. For the most part, this site is built with core blocks and is a great example of what we were able to do with our Starter system.",
+    "collaborators": [
+      {
+        "name": ["Juan Angot"],
+        "role": "UI Designer"
+      },
+      {
+        "name": ["Tyler Pease"],
+        "role": "UX Strategist"
+      },
+      {
+        "name": ["Nelfred Bangkas"],
+        "role": "Fellow WP Dev"
+      }
+    ],
+    "links": [
+      {
+        "text": "MCM",
+        "url": "https://www.marinemarathon.com/"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "mcm.webp",
+        "alt": "marine core marathon"
       }
     ],
     "dark": true,
