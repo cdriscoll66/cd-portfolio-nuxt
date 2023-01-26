@@ -4,7 +4,7 @@
   <div class="overlay__container">
     <div class="overlay">
       <div class="col__1">
-        <Transition appear class="delay-075">
+        <Transition appear class="delay-05">
           <div class="overlay__statement">
             <h3>
               This is the overlay Statement. I need to write soemthing worth
@@ -13,17 +13,17 @@
           </div>
         </Transition>
           <div class="overlay__menu">
-            <Transition appear class="delay-125">
+            <Transition appear class="delay-10">
             <NuxtLink to="/work">Work</NuxtLink>
             </Transition>
-            <Transition appear class="delay-15">
+            <Transition appear class="delay-125">
             <NuxtLink to="/styleguide">About</NuxtLink>
             </Transition>
           </div>
       </div>
       <div class="col__2">
         <div class="overlay__form">
-          <Transition appear class="delay-10">
+          <Transition appear class="delay-075">
           <h3>Drop me a line!</h3>
           </Transition>
           <!-- <EmailForm /> -->
@@ -118,6 +118,10 @@ a {
 .v-enter-from {
   opacity: 0;
   transform: translateY(100px);
+}
+
+.delay-05 {
+  transition-delay: 0.5s;
 }
 
 .delay-075 {

@@ -161,11 +161,11 @@ span.r-salt {
 }
 
 .v-enter-active {
-  transition: opacity 0.75s ease;
-  transition-delay: 0.5s;
+  transition: opacity 0.5s ease;
+  transition-delay: 0.25s;
 }
 .v-leave-active {
-  transition: opacity 0.5s ease;
+  transition: opacity 0.25s ease;
 }
 .v-enter-from,
 .v-leave-to {
