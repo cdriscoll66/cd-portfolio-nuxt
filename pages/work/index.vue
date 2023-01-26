@@ -10,8 +10,7 @@ import portfolio from "@/content/portfolio.json";
           <div class="portfolio__intro">
             <h1>Recent Projects</h1>
             <p>
-              Lorem Ipsum Here is some of my recent work - explainers, credits
-              and images are comgin soon.
+              Thanks For taking alook at my work. I've been lucky enough to work some pretty great collaborators, and I'm always looking for new opportunities to work with new people. If you're interested in working together, please drop me a line!
             </p>
           </div>
           <div class="portfolio__work">
@@ -20,7 +19,7 @@ import portfolio from "@/content/portfolio.json";
                 <NuxtLink :to="`/work/${piece.slug}`">{{
                   piece.name
                 }}</NuxtLink>
-                <span>{{ piece.description }}</span>
+                <p>{{ piece.description }}</p>
               </li>
             </ul>
           </div>
@@ -104,18 +103,20 @@ main {
     padding: 0;
 
     li {
-      padding: 0.5rem 0;
+      padding: 1.5rem 0 .5rem;
       display: flex;
       flex-flow: row wrap;
       align-items: center;
       a {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         font-weight: 700;
         margin-right: 30px;
       }
-      span {
-        font-size: 1.3rem;
+      p {
+        font-size: 1.2rem;
         font-style: italic;
+        margin-top: 0;
+      
       }
     }
   }
