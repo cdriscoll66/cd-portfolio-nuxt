@@ -10,12 +10,24 @@
             <NuxtLink to="/work">Work</NuxtLink>
             </Transition>
             <Transition appear class="delay-075">
-            <NuxtLink to="/cv">Resumé</NuxtLink>
+            <NuxtLink to="/resume-cd-2023.pdf" target="blank">Resumé</NuxtLink>
+            </Transition>            
+            <Transition appear class="delay-10">
+              <NuxtLink to="https://www.github.com/cdriscoll66"><img class="github_icon" src="@/assets/images/github-menu.svg" alt="github" /></NuxtLink>
+            </Transition>            
+            <Transition appear class="delay-125">
+            <div class="comingsoon">More Coming Soon...</div>
             </Transition>
           </div>
       </div>
       </Transition>
       <div class="col__2">
+        <Transition appear class="delay-10">
+        <h3>Wanna chat? Lovely!</h3>
+        </Transition>
+        <Transition appear class="delay-125">
+       <nuxtLink to="mailto:conor@driscoll66.com">Conor@Driscoll66.com</nuxtLink>
+       </Transition> 
       </div>
     </div>
   </div>
@@ -62,6 +74,21 @@ a {
   left: 20px;
   height: 30px;
 }
+.col__2 & {
+  font-size: 1.5rem;
+  &::before {
+    bottom: 4px;
+
+  }
+}
+}
+
+.comingsoon {
+  text-transform: uppercase; 
+  font-family: 'Henderson Slab', serif;
+  width: fit-content;
+  font-style: italic;
+  color: var(--color-light-gray);
 }
 
 
@@ -81,7 +108,7 @@ a {
   margin: 40px 0;
   flex: 1 0 45%;
   background-image: linear-gradient(to bottom,var(--color-trapped-darkness) 50%,transparent 50%);
-  background-position: left top;
+  background-position: right top;
   background-repeat: repeat-y;
   background-size: 2px 50px;
 }
@@ -90,6 +117,13 @@ a {
   padding: 0 30px;
   margin: 40px 0;
   flex: 1 0 55%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
 }
 
 .overlay__menu {
@@ -129,5 +163,11 @@ a {
 
 .delay-15 {
   transition-delay: 1.5s;
+}
+
+.github_icon {
+  height: 100%;
+  max-height: 50px;
+  width: auto;
 }
 </style>
