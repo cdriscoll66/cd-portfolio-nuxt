@@ -12,7 +12,7 @@
         </h2>
         <p>
           I&apos;m a freelance web developer, and technologist. I spend my days
-          in Richmond, Virginia. Thanks for taking a look.
+          in Richmond, Virginia. I like looking at the moon...
         </p>
       </div>
     </section>
@@ -50,7 +50,7 @@
   }
 
   @media screen and (min-width: 1120px) {
-    width: 65%;
+    width: 58%;
   }
   @media screen and (min-width: 1440px) {
     width: 50%;

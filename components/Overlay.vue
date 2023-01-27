@@ -3,31 +3,19 @@
 <template>
   <div class="overlay__container">
     <div class="overlay">
+      <Transition appear class="delay-025">
       <div class="col__1">
-        <Transition appear class="delay-05">
-          <div class="overlay__statement">
-            <h3>
-              This is the overlay Statement. I need to write soemthing worth
-              reading here.
-            </h3>
-          </div>
-        </Transition>
           <div class="overlay__menu">
-            <Transition appear class="delay-10">
+            <Transition appear class="delay-05">
             <NuxtLink to="/work">Work</NuxtLink>
             </Transition>
-            <Transition appear class="delay-125">
-            <NuxtLink to="/styleguide">About</NuxtLink>
+            <Transition appear class="delay-075">
+            <NuxtLink to="/cv">Resumé</NuxtLink>
             </Transition>
           </div>
       </div>
+      </Transition>
       <div class="col__2">
-        <div class="overlay__form">
-          <Transition appear class="delay-075">
-          <h3>Drop me a line!</h3>
-          </Transition>
-          <!-- <EmailForm /> -->
-        </div>
       </div>
     </div>
   </div>
@@ -93,7 +81,7 @@ a {
   margin: 40px 0;
   flex: 1 0 45%;
   background-image: linear-gradient(to bottom,var(--color-trapped-darkness) 50%,transparent 50%);
-  background-position: right top;
+  background-position: left top;
   background-repeat: repeat-y;
   background-size: 2px 50px;
 }
@@ -107,8 +95,10 @@ a {
 .overlay__menu {
   display: flex;
   flex-flow: column nowrap;
+  justify-content: center;
+  height: 100%;
   a {
-    padding-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 

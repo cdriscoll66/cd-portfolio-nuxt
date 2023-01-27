@@ -15,7 +15,7 @@
       },
       {
         "name": ["Gretel Trost"],
-        "role": "Developer"
+        "role": "Support Dev"
       }
     ],
     "links": [
@@ -37,8 +37,8 @@
   {
     "slug": "hot97-com",
     "name": "Hot97.com",
-    "description": "An Enterprise WordPress site for New York's #1 Hip Hop and R&B radio station. A Content Hub and API for Hot 97 Mobile App",
-    "full_description": "An Enterprise WordPress site for New York's #1 Hip Hop and R&B radio station. Our Team worked in collaboration with the team at Shockoe Digital to deliver a bespoke CMS site, on-brand design, and unique functionality. The main Hot 97 site was built as a content hub for other Hot 97 Products; particularly a mobile app built by Shockoe. Our team worked with a tight deadline to try and launch before Summer Jam ‘22 and worked with ad vendor software, live streaming music software, video monetization systems, and Amazon Cognito. This site was also the basis for WBLS.com.",
+    "description": "An Enterprise WordPress site for New York's #1 Hip Hop and R&B radio station. A Content Hub and API for Hot97 Mobile App",
+    "full_description": "An Enterprise WordPress site for New York's #1 Hip Hop and R&B radio station. Our Team worked in collaboration with the team at Shockoe Digital to deliver a bespoke CMS site, on-brand design, and unique functionality. The main Hot97 site was built as a content hub for other Hot97 products; particularly a mobile app built by Shockoe. Our team worked with a tight deadline to try and launch before Summer Jam ‘22 and worked with ad vendor software, live streaming music software, video monetization systems, and Amazon Cognito. This site was also the basis for WBLS.com.",
     "collaborators": [
       {
         "name": ["Cesley Musngi"],
@@ -59,7 +59,7 @@
     ],
     "links": [
       {
-        "text": "Hot 97 Site",
+        "text": "Hot97.com",
         "url": "https://www.hot97.com/"
       }
     ],

@@ -9,9 +9,6 @@ import portfolio from "@/content/portfolio.json";
         <div class="portfolio__content">
           <div class="portfolio__intro">
             <h1>Recent Projects</h1>
-            <p>
-              Thanks For taking alook at my work. I've been lucky enough to work some pretty great collaborators, and I'm always looking for new opportunities to work with new people. If you're interested in working together, please drop me a line!
-            </p>
           </div>
           <div class="portfolio__work">
             <ul>
