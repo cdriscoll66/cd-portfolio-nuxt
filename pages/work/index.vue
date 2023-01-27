@@ -20,6 +20,7 @@ import portfolio from "@/content/portfolio.json";
               </li>
             </ul>
           </div>
+            <h4 class="comingsoon">More to come...</h4>
         </div>
       </div>
     </div>
@@ -37,24 +38,21 @@ main {
   display: flex;
 }
 .portfolio {
-  margin: 180px 50px;
+  margin: 110px 10px;
   height: calc(100vh - 105px);
   overflow-y: scroll;
   padding-bottom: 50px;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  width: 100%;
   &::-webkit-scrollbar {
     display: none;
-  }
-  @media screen and (min-width: 1300px) {
-    margin: 180px auto;
   }
 }
 .portfolio__scrollable {
   display: flex;
-  margin-bottom: 100px;
+  margin: 0 10px 100px;
   flex-flow: column nowrap;
-  width: 100%;
   max-width: var(--site-content-width);
 
   border-color: var(--color-old-lace);
@@ -86,8 +84,13 @@ main {
   background-position: left top, left bottom, left top, right top;
   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
   background-size: 50px 2px, 50px 2px, 2px 50px, 2px 50px;
-
   color: var(--color-maniac-mansion);
+  @media screen and (min-width: 600px) {
+    margin: 0 50px 100px;
+  }
+  @media screen and (min-width: 1300px) {
+    margin: 0 auto 100px;
+  }
 }
 
 .portfolio__content {
@@ -95,27 +98,46 @@ main {
 }
 
 .portfolio__work {
+  width: 100%;
   ul {
     list-style: none;
     padding: 0;
-
+  
     li {
       padding: 1.5rem 0 .5rem;
       display: flex;
       flex-flow: row wrap;
       align-items: center;
+      max-width: var(--breakpoint-md);
+      margin: 10px auto;
+      border-bottom: 3px solid var(--color-hot-butter);
+
       a {
         font-size: 1.8rem;
         font-weight: 700;
         margin-right: 30px;
+        line-height: 1;
+        color: var(--color-maniac-mansion);
       }
       p {
         font-size: 1.2rem;
+        line-height: 1;
         font-style: italic;
-        margin-top: 0;
+        margin-top: 10px;
+        color: var(--color-medium-gray);
       
       }
     }
   }
+}
+
+.comingsoon {
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1.5rem 0 .5rem;
+  color: var(--color-medium-gray);
 }
 </style>

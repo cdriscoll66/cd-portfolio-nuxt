@@ -4,30 +4,39 @@
   <div class="overlay__container">
     <div class="overlay">
       <Transition appear class="delay-025">
-      <div class="col__1">
+        <div class="col__1">
           <div class="overlay__menu">
             <Transition appear class="delay-05">
-            <NuxtLink to="/work">Work</NuxtLink>
+              <NuxtLink to="/work">Work</NuxtLink>
             </Transition>
             <Transition appear class="delay-075">
-            <NuxtLink to="/resume-cd-2023.pdf" target="blank">Resumé</NuxtLink>
-            </Transition>            
+              <NuxtLink to="/resume-cd-2023.pdf" target="blank"
+                >Resumé</NuxtLink
+              >
+            </Transition>
             <Transition appear class="delay-10">
-              <NuxtLink to="https://www.github.com/cdriscoll66"><img class="github_icon" src="@/assets/images/github-menu.svg" alt="github" /></NuxtLink>
-            </Transition>            
+              <NuxtLink to="https://www.github.com/cdriscoll66"
+                ><img
+                  class="github_icon"
+                  src="@/assets/images/github-menu.svg"
+                  alt="github"
+              /></NuxtLink>
+            </Transition>
             <Transition appear class="delay-125">
-            <div class="comingsoon">More Coming Soon...</div>
+              <div class="comingsoon">More Coming Soon...</div>
             </Transition>
           </div>
-      </div>
+        </div>
       </Transition>
       <div class="col__2">
         <Transition appear class="delay-10">
-        <h3>Wanna chat? Lovely!</h3>
+          <h3>Wanna chat? Lovely!</h3>
         </Transition>
         <Transition appear class="delay-125">
-       <nuxtLink to="mailto:conor@driscoll66.com">Conor@Driscoll66.com</nuxtLink>
-       </Transition> 
+          <nuxtLink to="mailto:conor@driscoll66.com"
+            >Conor@Driscoll66.com</nuxtLink
+          >
+        </Transition>
       </div>
     </div>
   </div>
@@ -55,49 +64,55 @@ h3 {
 
 a {
   font-size: 2rem;
-  text-transform: uppercase; 
-  font-family: 'Henderson Slab', serif;
+  text-transform: uppercase;
+  font-family: "Henderson Slab", serif;
   width: fit-content;
   &::before {
-  content: '';
-  background-color: var(--color-hot-butter);
-  position: absolute;
-  left: 0;
-  bottom: 10px;
-  width: 100%;
-  height: 8px;
-  z-index: -1;
-  transition: all .3s ease-in-out;
-}
-&:hover::before {
-  bottom: 30%;
-  left: 20px;
-  height: 30px;
-}
-.col__2 & {
-  font-size: 1.5rem;
-  &::before {
-    bottom: 4px;
-
+    content: "";
+    background-color: var(--color-hot-butter);
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    height: 8px;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
   }
-}
+  &:hover::before {
+    bottom: 30%;
+    left: 20px;
+    height: 30px;
+  }
+  .col__2 & {
+    font-size: 1.5rem;
+    &::before {
+      bottom: 4px;
+    }
+  }
 }
 
 .comingsoon {
-  text-transform: uppercase; 
-  font-family: 'Henderson Slab', serif;
+  text-transform: uppercase;
+  font-family: "Henderson Slab", serif;
   width: fit-content;
   font-style: italic;
   color: var(--color-light-gray);
 }
 
-
 .overlay {
-  margin: 135px 5px 20px;
-  /* background-color: var(--color-sailor-boy); */
+  margin: 75px 5px 20px;
   width: 100%;
   max-width: var(--site-content-width);
   display: flex;
+  flex-flow: column nowrap;
+  height: fit-content;
+  @media screen and (min-width: 500px) {
+    margin: 135px 5px 20px;
+  }
+    @media screen and (min-width: 900px) {
+    flex-flow: row nowrap;
+    height: unset;
+  }
   @media screen and (min-width: 1210px) {
     margin: 135px auto 5px;
   }
@@ -105,24 +120,37 @@ a {
 
 .col__1 {
   padding: 0 30px;
-  margin: 40px 0;
+  margin: 10px 0;
   flex: 1 0 45%;
-  background-image: linear-gradient(to bottom,var(--color-trapped-darkness) 50%,transparent 50%);
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-trapped-darkness) 50%,
+    transparent 50%
+  );
   background-position: right top;
   background-repeat: repeat-y;
   background-size: 2px 50px;
+  @media screen and (min-width: 900px) {
+    margin: 40px 0;
+  }
 }
 
 .col__2 {
   padding: 0 30px;
-  margin: 40px 0;
+  margin: 10px 0;
   flex: 1 0 55%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  p {
-    font-size: 1.5rem;
+  @media screen and (min-width: 900px) {
+    margin: 40px 0;
+  }
+  a {
+    font-size: 1rem;
     line-height: 1.5;
+    @media screen and (min-width: 900px) {
+      font-size: 1.5rem;
+    }
   }
 }
 
@@ -156,7 +184,6 @@ a {
   transition-delay: 1s;
 }
 
-
 .delay-125 {
   transition-delay: 1.25s;
 }
@@ -168,6 +195,6 @@ a {
 .github_icon {
   height: 100%;
   max-height: 50px;
-  width: auto;
+  width: 100%;
 }
 </style>

@@ -11,8 +11,8 @@
           I love making beautiful, performant, interesting things.
         </h2>
         <p>
-          I&apos;m a freelance web developer, and technologist. I spend my days
-          in Richmond, Virginia. I like looking at the moon...
+          I&apos;m a freelance web developer, Javascript Enthusiast & technologist. I spend my days
+          in Richmond, Virginia. 
         </p>
       </div>
     </section>
