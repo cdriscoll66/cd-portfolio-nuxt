@@ -12,7 +12,7 @@ import portfolio from "@/content/portfolio.json";
           </div>
           <div class="portfolio__work">
             <ul>
-              <li v-for="(piece, key) in portfolio" :key="key">
+              <li v-for="(piece, key) in portfolio.recent" :key="key">
                 <NuxtLink :to="`/work/${piece.slug}`">{{
                   piece.name
                 }}</NuxtLink>
@@ -21,6 +21,20 @@ import portfolio from "@/content/portfolio.json";
             </ul>
           </div>
             <h4 class="comingsoon">More to come...</h4>
+            <div class="portfolio__intro">
+            <h3>Maintenance</h3>
+            <p>Often, I've been tasked with on stepping in to improve or maintain sites and systems built by others. These come with a unique set of challenges, both difficult and interesting. Here are a sample of those projects.</p>
+          </div>
+          <div class="portfolio__work">
+            <ul>
+              <li v-for="(piece, key) in portfolio.maintenance" :key="key">
+              <NuxtLink :to="`/work/${piece.slug}`">{{
+                  piece.name
+                }}</NuxtLink>
+                <p>{{ piece.description }}</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -106,8 +120,8 @@ main {
     li {
       padding: 1.5rem 0 .5rem;
       display: flex;
-      flex-flow: row wrap;
-      align-items: center;
+      flex-flow: column nowrap;
+      align-items: flex-start;
       max-width: var(--breakpoint-md);
       margin: 10px auto;
       border-bottom: 3px solid var(--color-hot-butter);
@@ -139,5 +153,15 @@ main {
   margin-bottom: 0;
   padding: 1.5rem 0 .5rem;
   color: var(--color-medium-gray);
+}
+
+.portfolio__intro {
+  p {
+    font-size: 1.2rem;
+    line-height: 1;
+    font-style: italic;
+    margin-top: 10px;
+    color: var(--color-medium-gray);
+  }
 }
 </style>

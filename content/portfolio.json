@@ -1,270 +1,359 @@
-[
-  {
-    "slug": "k8ssandra-configurator",
-    "name": "K8ssandra Configurator",
-    "description": "Vue Application to guides users in configuring a K8ssandra installation. For Datastax, and 2021 Bronze award - Richmond Ad Club",
-    "full_description": "This Vue Application guides users thru configuring a K8ssandra installation. Built as a supplementary tool to the K8ssandra documentation. The configurator was created for DataStax by our team at COLAB along with their Enterprise WordPress site. The Documentation (built in Hugo) and their forum site were styled and aligned by our team. The K8ssandra Configurator won a bronze award at the 2021 Richmond Ad Club awards.",
-    "collaborators": [
-      {
-        "name": ["Cesley Musngi"],
-        "role": "UI Designer"
-      },
-      {
-        "name": ["Joanna Snodgrass"],
-        "role": "UX Strategist"
-      },
-      {
-        "name": ["Gretel Trost"],
-        "role": "Support Dev"
-      }
-    ],
-    "links": [
-      {
-        "text": "See the App",
-        "url": "https://start.k8ssandra.io/"
-      }
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "k8ssandra-config.webp",
-        "alt": "K8ssandra Configurator"
-      }
-    ],
-    "dark": false,
-    "right": false
-  },
-  {
-    "slug": "hot97-com",
-    "name": "Hot97.com",
-    "description": "An Enterprise WordPress site for New York's #1 Hip Hop and R&B radio station. A Content Hub and API for Hot97 Mobile App",
-    "full_description": "An Enterprise WordPress site for New York's #1 Hip Hop and R&B radio station. Our Team worked in collaboration with the team at Shockoe Digital to deliver a bespoke CMS site, on-brand design, and unique functionality. The main Hot97 site was built as a content hub for other Hot97 products; particularly a mobile app built by Shockoe. Our team worked with a tight deadline to try and launch before Summer Jam ‘22 and worked with ad vendor software, live streaming music software, video monetization systems, and Amazon Cognito. This site was also the basis for WBLS.com.",
-    "collaborators": [
-      {
-        "name": ["Cesley Musngi"],
-        "role": "UI Designer"
-      },
-      {
-        "name": ["Tyler Pease"],
-        "role": "UX Strategist"
-      },
-      {
-        "name": ["Francis Yaconiello"],
-        "role": "Software Engineer"
-      },
-      {
-        "name": ["John Mitchell", "J Ivy"],
-        "role": "Fellow WP Devs"
-      }
-    ],
-    "links": [
-      {
-        "text": "Hot97.com",
-        "url": "https://www.hot97.com/"
-      }
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "hot97.webp",
-        "alt": "Hot97.com"
-      }
-    ],
-    "dark": false,
-    "right": false
-  },
-  {
-    "slug": "luck-100-years",
-    "name": "Luck 100 Years Celebration",
-    "description": "A commemorative website for the 100th anniversary of Luck Companies.",
-    "full_description": "Luck Stone, the nation’s largest producer of crushed stone, sand, and gravel, is celebrating its 100-year anniversary in 2023. To commemorate the occasion, and showcase the rich history of Luck, our team built a 100 years site using Vue (Nuxt). It was one of my favorite sites I worked on while at COLAB. I had a lot of fun with the 100 years section that incorporates a 3D scroll effect.",
-    "collaborators": [
-      {
-        "name": ["Cesley Musngi", "Juan Angot"],
-        "role": "UI Designer"
-      },
-      {
-        "name": ["Tyler Pease"],
-        "role": "UX Strategist"
-      }
-    ],
-    "links": [
-      {
-        "text": "Luck 100 Years",
-        "url": "https://www.luckcompanies100.com/"
-      }
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "luck-100.webp",
-        "alt": "Luck companies 100 years"
-      }
-    ],
-    "dark": true,
-    "right": false
-  },
-  {
-    "slug": "architect-io",
-    "name": "Architect.io",
-    "description": "A WordPress replatform project that is performant and integrates with all of Architect's web properties.",
-    "full_description": "The Architect team is building an impressive development platform for full stack Apps. They are a fast-moving and capable team but needed support with marketing efforts. I offered that support by re-platforming their existing site into a Block Editor-built Enterprise WordPress site. Using a handful of custom blocks, but mostly styled core blocks, the site was one of COLAB’s top sites in performant page speed. It also offered a solid foundation for the Architect’s recent rebrand.",
-    "collaborators": [
-      {
-        "name": ["Jessica Wilson"],
-        "role": "Rebrand Developer"
-      }
-    ],
-    "links": [
-      {
-        "text": "Architect.io",
-        "url": "https://www.architect.io/"
-      }
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "architectio.webp",
-        "alt": "architect.io replatform"
-      }
-    ],
-    "dark": false,
-    "right": false
-  },
-  {
-    "slug": "team-colab",
-    "name": "TeamCOLAB.com",
-    "description": "COLAB digital agency was my home. When we rebuilt our own site, we wanted to make it performant.",
-    "full_description": "Team COLAB had gone through a handful of iterations during my time with the company. In the most recent design, we wanted to base the sites build on standard core blocks, but push the design outside of the standard layouts. This redesign was paired with a new marketing strategy looking at DevOps and how COLAB partners with its clients. The site is completely customizable using the Block Editor and optimized for performance and ADA compliance.",
-    "collaborators": [
-      {
-        "name": ["Cesley Musngi"],
-        "role": "UI Designer"
-      },
-      {
-        "name": ["Tyler Pease"],
-        "role": "UX Strategist"
-      },
-      {
-        "name": ["J Ivy"],
-        "role": "Fellow WP Dev"
-      }
-    ],
-    "links": [
-      {
-        "text": "TeamCOLAB.com",
-        "url": "https://www.teamcolab.com/"
-      }
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "colab.webp",
-        "alt": "Team Colab Site"
-      }
-    ],
-    "dark": true,
-    "right": false
-  },
-  {
-    "slug": "texas-a-m-gradschool",
-    "name": "Texas A&M Graduate School",
-    "description": "Front-end Development for the Kentico site rebuild for the Texas A&M Graduate School.",
-    "full_description": "The Graduate School at Texas A & M University was rebuilding its site and set EAB with the task. EAB’s team was in its infancy so looked to COLAB and some other teams with which to partner. A requirement was to build and connect with the University-wide Kentico system - Our team focused on the Front End build and worked with KehrenDev Kentico Devs to implement EAB’s strategy and design.",
-    "collaborators": [
-      {
-        "name": ["EAB Team"],
-        "role": "UX/UI Designer"
-      },
-      {
-        "name": ["KehrenDev"],
-        "role": "Kentico Developer"
-      }
-    ],
-    "links": [
-      {
-        "text": "Texas A&M Graduate School",
-        "url": "https://grad.tamu.edu/"
-      }
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "tamu.webp",
-        "alt": "Texas A&M Graduate School"
-      }
-    ],
-    "dark": false,
-    "right": false
-  },
-  {
-    "slug": "ncel-pick-3-pick-4",
-    "name": "North Carolina Education Lottery Pick 3 and Pick 4 Tutorials",
-    "description": "Vue Application explainers tutorial walk throughs for the NC Education Lottery Pick 3 and Pick 4 games.",
-    "full_description": "The North Carolina Education Lottery has worked with COLAB before on a handful of projects mostly with a focus on educating players and vendors on how the games work, what are the odds of winning, etc. During a push to Pick 3 and Pick 4 with Fireball, they asked our team to create a tutorial and simulated game. I did so using Vue3; creating a custom video playing system, as well as, a game that draws randomly - with stacked odds (to up the chances of a recent win).",
-    "collaborators": [
-      {
-        "name": ["Juan Angot"],
-        "role": "UI Designer"
-      },
-      {
-        "name": ["Tyler Pease"],
-        "role": "UX Strategist"
-      }
-    ],
-    "links": [
-      {
-        "text": "Pick 3",
-        "url": "https://nclottery-pick3.netlify.app/"
-      },
-      {
-        "text": "Pick 4",
-        "url": "https://nclottery-pick4.netlify.app/"
-      }
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "ncel34.webp",
-        "alt": "North Carolina Education Lottery Pick 3 and Pick 4 Tutorials"
-      }
-    ],
-    "dark": true,
-    "right": true
-  },
-  {
-    "slug": "marine-corp-marathon",
-    "name": "The Marine Corps Marathon",
-    "description": "A Rebranded Site using the COLAB WordPress starter, and a custom theme.",
-    "full_description": "The Marine Corps Marathon hired COLAB to do a rebrand and site rebuild. This was a collaborative effort of our team, but I was into the featured race block, which uses logic and the present date to surface what the next event will be and showcases it. The subsequent events follow in line. For the most part, this site is built with core blocks and is a great example of what we were able to do with our Starter system.",
-    "collaborators": [
-      {
-        "name": ["Juan Angot"],
-        "role": "UI Designer"
-      },
-      {
-        "name": ["Tyler Pease"],
-        "role": "UX Strategist"
-      },
-      {
-        "name": ["Nelfred Bangkas"],
-        "role": "Fellow WP Dev"
-      }
-    ],
-    "links": [
-      {
-        "text": "MCM",
-        "url": "https://www.marinemarathon.com/"
-      }
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "mcm.webp",
-        "alt": "marine core marathon"
-      }
-    ],
-    "dark": true,
-    "right": true
-  }
-]
+{
+  "recent": [
+    {
+      "slug": "k8ssandra-configurator",
+      "name": "K8ssandra Configurator",
+      "description": "Vue Application to guides users in configuring a K8ssandra installation. For Datastax, and 2021 Bronze award - Richmond Ad Club",
+      "full_description": "This Vue Application guides users thru configuring a K8ssandra installation. Built as a supplementary tool to the K8ssandra documentation. The configurator was created for DataStax by our team at COLAB along with their Enterprise WordPress site. The Documentation (built in Hugo) and their forum site were styled and aligned by our team. The K8ssandra Configurator won a bronze award at the 2021 Richmond Ad Club awards.",
+      "collaborators": [
+        {
+          "name": ["Cesley Musngi"],
+          "role": "UI Designer"
+        },
+        {
+          "name": ["Joanna Snodgrass"],
+          "role": "UX Strategist"
+        },
+        {
+          "name": ["Gretel Trost"],
+          "role": "Support Dev"
+        }
+      ],
+      "links": [
+        {
+          "text": "See the App",
+          "url": "https://start.k8ssandra.io/"
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "k8ssandra-config.webp",
+          "alt": "K8ssandra Configurator"
+        }
+      ],
+      "dark": false,
+      "right": false
+    },
+    {
+      "slug": "hot97-com",
+      "name": "Hot97.com",
+      "description": "An Enterprise WordPress site for New York's #1 Hip Hop and R&B radio station. A Content Hub and API for Hot97 Mobile App",
+      "full_description": "An Enterprise WordPress site for New York's #1 Hip Hop and R&B radio station. Our Team worked in collaboration with the team at Shockoe Digital to deliver a bespoke CMS site, on-brand design, and unique functionality. The main Hot97 site was built as a content hub for other Hot97 products; particularly a mobile app built by Shockoe. Our team worked with a tight deadline to try and launch before Summer Jam ‘22 and worked with ad vendor software, live streaming music software, video monetization systems, and Amazon Cognito. This site was also the basis for WBLS.com.",
+      "collaborators": [
+        {
+          "name": ["Cesley Musngi"],
+          "role": "UI Designer"
+        },
+        {
+          "name": ["Tyler Pease"],
+          "role": "UX Strategist"
+        },
+        {
+          "name": ["Francis Yaconiello"],
+          "role": "Software Engineer"
+        },
+        {
+          "name": ["John Mitchell", "J Ivy"],
+          "role": "Fellow WP Devs"
+        }
+      ],
+      "links": [
+        {
+          "text": "Hot97.com",
+          "url": "https://www.hot97.com/"
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "hot97.webp",
+          "alt": "Hot97.com"
+        }
+      ],
+      "dark": false,
+      "right": false
+    },
+    {
+      "slug": "luck-100-years",
+      "name": "Luck 100 Years Celebration",
+      "description": "A commemorative website for the 100th anniversary of Luck Companies.",
+      "full_description": "Luck Stone, the nation’s largest producer of crushed stone, sand, and gravel, is celebrating its 100-year anniversary in 2023. To commemorate the occasion, and showcase the rich history of Luck, our team built a 100 years site using Vue (Nuxt). It was one of my favorite sites I worked on while at COLAB. I had a lot of fun with the 100 years section that incorporates a 3D scroll effect.",
+      "collaborators": [
+        {
+          "name": ["Cesley Musngi", "Juan Angot"],
+          "role": "UI Designer"
+        },
+        {
+          "name": ["Tyler Pease"],
+          "role": "UX Strategist"
+        }
+      ],
+      "links": [
+        {
+          "text": "Luck 100 Years",
+          "url": "https://www.luckcompanies100.com/"
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "luck-100.webp",
+          "alt": "Luck companies 100 years"
+        }
+      ],
+      "dark": true,
+      "right": false
+    },
+    {
+      "slug": "architect-io",
+      "name": "Architect.io",
+      "description": "A WordPress replatform project that is performant and integrates with all of Architect's web properties.",
+      "full_description": "The Architect team is building an impressive development platform for full stack Apps. They are a fast-moving and capable team but needed support with marketing efforts. I offered that support by re-platforming their existing site into a Block Editor-built Enterprise WordPress site. Using a handful of custom blocks, but mostly styled core blocks, the site was one of COLAB’s top sites in performant page speed. It also offered a solid foundation for the Architect’s recent rebrand.",
+      "collaborators": [
+        {
+          "name": ["Jessica Wilson"],
+          "role": "Rebrand Developer"
+        }
+      ],
+      "links": [
+        {
+          "text": "Architect.io",
+          "url": "https://www.architect.io/"
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "architectio.webp",
+          "alt": "architect.io replatform"
+        }
+      ],
+      "dark": false,
+      "right": false
+    },
+    {
+      "slug": "team-colab",
+      "name": "TeamCOLAB.com",
+      "description": "COLAB digital agency was my home. When we rebuilt our own site, we wanted to make it performant.",
+      "full_description": "Team COLAB had gone through a handful of iterations during my time with the company. In the most recent design, we wanted to base the sites build on standard core blocks, but push the design outside of the standard layouts. This redesign was paired with a new marketing strategy looking at DevOps and how COLAB partners with its clients. The site is completely customizable using the Block Editor and optimized for performance and ADA compliance.",
+      "collaborators": [
+        {
+          "name": ["Cesley Musngi"],
+          "role": "UI Designer"
+        },
+        {
+          "name": ["Tyler Pease"],
+          "role": "UX Strategist"
+        },
+        {
+          "name": ["J Ivy"],
+          "role": "Fellow WP Dev"
+        }
+      ],
+      "links": [
+        {
+          "text": "TeamCOLAB.com",
+          "url": "https://www.teamcolab.com/"
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "colab.webp",
+          "alt": "Team Colab Site"
+        }
+      ],
+      "dark": true,
+      "right": false
+    },
+    {
+      "slug": "texas-a-m-gradschool",
+      "name": "Texas A&M Graduate School",
+      "description": "Front-end Development for the Kentico site rebuild for the Texas A&M Graduate School.",
+      "full_description": "The Graduate School at Texas A & M University was rebuilding its site and set EAB with the task. EAB’s team was in its infancy so looked to COLAB and some other teams with which to partner. A requirement was to build and connect with the University-wide Kentico system - Our team focused on the Front End build and worked with KehrenDev Kentico Devs to implement EAB’s strategy and design.",
+      "collaborators": [
+        {
+          "name": ["EAB Team"],
+          "role": "UX/UI Designer"
+        },
+        {
+          "name": ["KehrenDev"],
+          "role": "Kentico Developer"
+        }
+      ],
+      "links": [
+        {
+          "text": "Texas A&M Graduate School",
+          "url": "https://grad.tamu.edu/"
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "tamu.webp",
+          "alt": "Texas A&M Graduate School"
+        }
+      ],
+      "dark": false,
+      "right": false
+    },
+    {
+      "slug": "ncel-pick-3-pick-4",
+      "name": "North Carolina Education Lottery Pick 3 and Pick 4 Tutorials",
+      "description": "Vue Application explainers tutorial walk throughs for the NC Education Lottery Pick 3 and Pick 4 games.",
+      "full_description": "The North Carolina Education Lottery has worked with COLAB before on a handful of projects mostly with a focus on educating players and vendors on how the games work, what are the odds of winning, etc. During a push to Pick 3 and Pick 4 with Fireball, they asked our team to create a tutorial and simulated game. I did so using Vue3; creating a custom video playing system, as well as, a game that draws randomly - with stacked odds (to up the chances of a recent win).",
+      "collaborators": [
+        {
+          "name": ["Juan Angot"],
+          "role": "UI Designer"
+        },
+        {
+          "name": ["Tyler Pease"],
+          "role": "UX Strategist"
+        }
+      ],
+      "links": [
+        {
+          "text": "Pick 3",
+          "url": "https://nclottery-pick3.netlify.app/"
+        },
+        {
+          "text": "Pick 4",
+          "url": "https://nclottery-pick4.netlify.app/"
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "ncel34.webp",
+          "alt": "North Carolina Education Lottery Pick 3 and Pick 4 Tutorials"
+        }
+      ],
+      "dark": true,
+      "right": true
+    },
+    {
+      "slug": "marine-corp-marathon",
+      "name": "The Marine Corps Marathon",
+      "description": "A Rebranded Site using the COLAB WordPress starter, and a custom theme.",
+      "full_description": "The Marine Corps Marathon hired COLAB to do a rebrand and site rebuild. This was a collaborative effort of our team, but I was into the featured race block, which uses logic and the present date to surface what the next event will be and showcases it. The subsequent events follow in line. For the most part, this site is built with core blocks and is a great example of what we were able to do with our Starter system.",
+      "collaborators": [
+        {
+          "name": ["Juan Angot"],
+          "role": "UI Designer"
+        },
+        {
+          "name": ["Tyler Pease"],
+          "role": "UX Strategist"
+        },
+        {
+          "name": ["Nelfred Bangkas"],
+          "role": "Fellow WP Dev"
+        }
+      ],
+      "links": [
+        {
+          "text": "MCM",
+          "url": "https://www.marinemarathon.com/"
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "mcm.webp",
+          "alt": "marine core marathon"
+        }
+      ],
+      "dark": true,
+      "right": true
+    }
+  ], 
+  "maintenance": [
+    {
+      "slug": "teachstone",
+      "name": "Teachstone",
+      "description": "For a few years, COLAB has been maintaining the Teachstone site and it's various sub-sites.",
+      "full_description": "A Themosis themed site, using Blade Templating and an MVC framework - COLAB inherited this site, added to it's features - including Faceted searches, and content systems for FAQ's, Events, and Resources. I was also tasked with maintaining a Hubspot Blog, and custom BigCommerce Store. ",
+      "collaborators": [
+        {
+          "name": ["Storyware"],
+          "role": "Initial Development"
+        },
+        {
+          "name": ["Jessica Wilson"],
+          "role": "Rebrand Developer"
+        }
+      ],
+      "links": [
+        {
+          "text": "Teachstone",
+          "url": "https://www.teachstone.com/"
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "teachstone.webp",
+          "alt": "teachstone.com"
+        }
+      ],
+      "dark": false,
+      "right": true
+    },
+    {
+      "slug": "val-alexa",
+      "name": "VA Lottery Alexa Skill",
+      "description": "COLAB built a custom Alexa Skill for the VA Lottery.",
+      "full_description": "The Virginia Lottery had explored the voice ecosystem and COLAB was tasked with building a custom Alexa Skill. Built before my tenure, I was able to take over the project from the original engineer, Francis Yanconiello. The skill, built using the Jovo Framwork - pulls Data from a custom API, to read winning numbers and game status. During my time I augmented it's behavior, adding raffle results, advertisements and more.",
+      "collaborators": [
+        {
+          "name": ["Francis Yaconiello"],
+          "role": "Initial Development"
+        }
+      ],
+      "links": [
+        {
+          "text": "The Skill on Amazon",
+          "url": "https://www.amazon.com/COLAB-Multimedia-Virginia-Lottery/dp/B07KXWVWQZ/"
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "alexa-blueberries.webp",
+          "alt": "VA Lottery Alexa Skill"
+        }
+      ],
+      "dark": true,
+      "right": true
+    },
+    {
+      "slug": "compare",
+      "name": "Compare.com",
+      "description": "Insurance Comparison Site, Compare.com",
+      "full_description": "COLAB helped Compare.com with a slew of performance goals  and content marketing systems. The site came to us from a previous dev team - and we were responsible for getting it's Core Web Vital scores in the green. We also built out a content system that accepted a CSV and built hundreds of pages per migration.",
+      "collaborators": [
+        {
+          "name": ["Dustin Ginther"],
+          "role": "Software Engineer"
+        }
+      ],
+      "links": [
+        {
+          "text": "Compare.com",
+          "url": "https://www.compare.com"
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "compare.webp",
+          "alt": "Compare.com"
+        }
+      ],
+      "dark": true,
+      "right": true
+    }
+  ]
+}

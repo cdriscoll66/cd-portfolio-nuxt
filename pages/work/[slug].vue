@@ -3,7 +3,9 @@ import portfolio from "~/content/portfolio.json";
 
 const route = useRoute();
 
-const single = portfolio.find((piece) => piece.slug === route.params.slug) ?? {
+const fulllist = portfolio.recent.concat(portfolio.maintenance);
+
+const single = fulllist.find((piece) => piece.slug === route.params.slug) ?? {
   name: undefined,
   description: undefined,
   slug: undefined,
