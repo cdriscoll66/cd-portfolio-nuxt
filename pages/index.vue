@@ -71,7 +71,7 @@
   line-height: 1.6;
 
   a {
-    color: var(--color-hot-butter);
+    color: var(--color-glowing-lantern);
     width: fit-content;
 
     &::before {
