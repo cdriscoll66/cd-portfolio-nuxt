@@ -73,10 +73,11 @@
   a {
     color: var(--color-glowing-lantern);
     width: fit-content;
+    transition: all 0.3s ease-in-out;
 
     &::before {
       content: "";
-      background-color: var(--color-maniac-mansion);
+      background-color: var(--color-glowing-lantern);
       position: absolute;
       left: 0;
       bottom: 1px;
@@ -85,9 +86,11 @@
       z-index: -1;
       transition: all 0.3s ease-in-out;
     }
-
+    &:hover {
+      color: var(--color-old-lace);
+    }
     &:hover::before {
-      bottom: 10%;
+      bottom: 20%;
       left: 5px;
       height: 20px;
     }
